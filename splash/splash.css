@@ -1,0 +1,49 @@
+body {
+  background-image: url(../images/splashBG.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 38px;
+}
+
+main {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+}
+
+nav {
+  position: absolute;
+  top: 30px;
+  left: 17px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li:first-child {
+  margin-right: 185px;
+  color: #091f2d;
+  opacity: .25;
+}
+
+a {
+  color: #091f2d;
+  opacity: .55;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .80;
+}
+
+a:visited {
+  opacity: .25;
+}

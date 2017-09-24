@@ -1,0 +1,269 @@
+body {
+  background: #879397;
+  background: linear-gradient(#879397, #f5dec0);
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 25px;
+}
+
+nav {
+  z-index: 3;
+}
+
+nav img {
+  position: fixed;
+  z-index: 3;
+}
+nav img:nth-child(1) {
+  top: 50px;
+  left: 30px;
+}
+
+nav img:nth-child(2) {
+  top: 10px;
+  right: 10px;
+}
+
+nav img:nth-child(3) {
+  bottom: 10px;
+  left:10px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  color: #f5dec0;
+  opacity: 1;
+  transition: 2s;
+}
+
+header img {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+header div {
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #879397;
+  opacity: .8;
+}
+
+header article {
+  z-index: 2;
+  position: absolute;
+  top: 7%;
+  left: 320px;
+}
+
+header h1 {
+  font-size: 55px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+header p {
+  font-size: 23px;
+  width: 85%;
+}
+
+header aside {
+  position: fixed;
+  bottom: 10px;
+  right: 47%;
+  color: #000D13;
+  font-size: 15px;
+  opacity: 1;
+}
+
+main {
+  color: #1E363D;
+}
+
+#pic {
+  z-index: -3;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+main div {
+  z-index: -2;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 775px;
+  width: 215px;
+  background-color: #f5dec0;
+  opacity: .5;
+}
+
+main section {
+  z-index: -1;
+  position: fixed;
+  top: 20%;
+  width: 220px;
+  height: 500px;
+  color: #000D13;
+}
+
+main section img {
+  position: absolute;
+  right: 0px;
+}
+
+main section aside {
+  position: absolute;
+  color:  #f5dec0;
+  font-size: 8px;
+  margin-top: -4px;
+  right: 60px;
+}
+
+#line {
+  position: absolute;
+  right: 11px;
+  top: 20px;
+}
+
+#tick01 {
+  top: 410px;
+  color:  #000D13;
+}
+#tick02 {
+  top: 400px;
+}
+#tick1 {
+  top: 390px;
+}
+#tick11 {
+  top: 380px;
+}
+#tick12 {
+  top: 370px;
+}
+#tick13 {
+  top: 360px;
+}
+#tick2 {
+  top: 350px;
+}
+#tick21 {
+  top: 340px;
+}
+#tick22 {
+  top: 330px;
+}
+#tick23 {
+  top: 320px;
+}
+#tick24 {
+  top: 310px;
+}
+#tick3 {
+  top: 300px;
+}
+#tick31 {
+  top: 290px;
+}
+#tick32 {
+  top: 280px;
+}
+#tick33 {
+  top: 270px;
+}
+#tick4 {
+  top: 260px;
+}
+#tick41 {
+  top: 250px;
+}
+#tick42 {
+  top: 240px;
+}
+#tick43 {
+  top: 230px;
+}
+#tick44 {
+  top: 220px;
+}
+#tick5 {
+  top: 210px;
+}
+#tick51 {
+  top: 200px;
+}
+#tick52 {
+  top: 190px;
+}
+#tick53 {
+  top: 180px;
+}
+#tick6 {
+  top: 170px;
+}
+#tick61 {
+  top: 160px;
+}
+#tick62 {
+  top: 150px;
+}
+#tick63 {
+  top: 140px;
+}
+#tick7 {
+  top: 130px;
+}
+#tick71 {
+  top: 120px;
+}
+#tick72 {
+  top: 110px;
+}
+#tick73 {
+  top: 100px;
+}
+#tick8 {
+  top: 90px;
+}
+#tick81 {
+  top: 80px;
+}
+#tick82 {
+  top: 70px;
+}
+
+h2 {
+  text-align: center;
+  margin-right: 25px;
+  margin-top: 25px;
+  color: #000D13;
+  font-size: 15px;
+}
+
+main article {
+  margin-top: 90px;
+  margin-left: 320px;
+  margin-bottom: 100px;
+}
+
+main h1 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+main p {
+  font-size: 20px;
+  width: 85%;
+}
