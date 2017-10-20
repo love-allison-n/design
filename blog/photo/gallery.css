@@ -1,0 +1,171 @@
+body {
+  background: #879397;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 25px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+nav {
+  z-index: 10;
+}
+
+nav img {
+  z-index: 10;
+  position: fixed;
+}
+nav img:nth-child(1) {
+  top: 50px;
+  left: 30px;
+}
+
+nav img:nth-child(2) {
+  height: 50px;
+  width: 50px;
+  top: 10px;
+  right: 10px;
+}
+
+nav img:nth-child(3) {
+  height: 50px;
+  width: 50px;
+  bottom: 10px;
+  left:10px;
+}
+
+#tri1 {
+  z-index: 9;
+  background: linear-gradient(to left, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, transparent);
+  position: fixed;
+  top: -800px;
+  right: -700px;
+  width: 800px;
+	height: 1000px;
+  transition: 1s;
+  transform: rotate(-45deg);
+}
+
+#tri2 {
+  z-index: 9;
+  background: linear-gradient(to right, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, transparent);
+  position: fixed;
+  bottom: -800px;
+  left: -700px;
+  width: 800px;
+	height: 1000px;
+  transition: 1s;
+  transform: rotate(-45deg);
+}
+
+nav div a {
+  position: absolute;
+  z-index: 10;
+  width: 200px;
+  color: #f5dec0;
+  font-size: 25px;
+  text-decoration: none;
+  opacity: .75;
+  transform: rotate(45deg);
+}
+
+nav div a:hover {
+  opacity: 1;
+}
+
+#dp {
+  bottom: 500px;
+  left: 75px;
+}
+
+#hp {
+  bottom: 440px;
+  left: 75px;
+}
+
+#bh {
+  text-align: right;
+  right: 80px;
+  top: 435px;
+}
+
+#pg {
+  text-align: right;
+  right: 95px;
+  top: 483px;
+}
+
+main {
+  position: absolute;
+  height: 500px;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  top: 52%;
+  margin-top: -250px;
+}
+
+#caption {
+  position: absolute;
+  text-align: center;
+  width: calc(100% - 600px);
+  top: 75px;
+  left: 0px;
+}
+
+#back {
+  width: 0px;
+  height: 0px;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 25px solid #000D13;
+  margin: auto;
+}
+
+#next {
+  width: 0px;
+  height: 0px;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 25px solid #000D13;
+  margin: auto;
+}
+
+h1 {
+  font-size: 17px;
+  font-weight: 400;
+  width: 150px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 300;
+  width: 150px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+
+#pics {
+  position: absolute;
+  background-color: #000D13;
+  height: 500px;
+  width: 500px;
+  top: 0px;
+  right: 0px;
+}
+
+#photo {
+  position: absolute;
+  height: 500px;
+  width: 333px;
+  right: 250px;
+  top: 250px;
+  margin-right: calc(-333px/2);
+  margin-top: calc(-500px/2);
+
+}
