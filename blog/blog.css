@@ -117,8 +117,8 @@ main section aside {
   position: absolute;
   color:  #f5dec0;
   height: 10px;
-  font-size: 8px;
-  margin-top: -4px;
+  font-size: 12px;
+  margin-top: -6px;
   right: 55px;
   opacity: .75;
 }
@@ -139,60 +139,62 @@ main section aside:hover {
   color:  #000D13;
 }
 .tick02 {
-  top: 400px;
-  color:  #000D13;
-}
-.tick1 {
   top: 390px;
   color:  #000D13;
 }
-.tick11 {
-  top: 380px;
-  color:  #000D13;
-}
-.tick12 {
+.tick1 {
   top: 370px;
   color:  #000D13;
 }
-.tick13 {
-  top: 360px;
-}
-.tick2 {
+.tick11 {
   top: 350px;
+  color:  #000D13;
 }
-.tick21 {
-  top: 340px;
-}
-.tick22 {
+.tick12 {
   top: 330px;
+  color:  #000D13;
 }
-.tick23 {
-  top: 320px;
-}
-.tick24 {
+.tick13 {
   top: 310px;
 }
-.tick3 {
-  top: 300px;
-}
-.tick31 {
+.tick2 {
   top: 290px;
 }
-.tick32 {
-  top: 280px;
-}
-.tick33 {
+.tick21 {
   top: 270px;
 }
-.tick4 {
-  top: 260px;
-}
-.tick41 {
+.tick22 {
   top: 250px;
 }
-.tick42 {
-  top: 240px;
+.tick23 {
+  top: 230px;
 }
+.tick24 {
+  top: 210px;
+}
+.tick3 {
+  top: 190px;
+}
+.tick31 {
+  top: 170px;
+}
+.tick32 {
+  top: 150px;
+}
+.tick33 {
+  top: 130px;
+}
+.tick4 {
+  top: 110px;
+}
+.tick41 {
+  top: 90px;
+}
+.tick42 {
+  top: 70px;
+}
+
+/*
 .tick43 {
   top: 230px;
 }
@@ -244,14 +246,15 @@ main section aside:hover {
 .tick82 {
   top: 70px;
 }
+*/
 
 h2 {
   z-index: 0;
   text-align: center;
-  margin-right: 25px;
+  margin-right: 15px;
   margin-top: 25px;
   color: #000D13;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* Article Posts */
