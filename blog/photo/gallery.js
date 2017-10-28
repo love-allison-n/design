@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function topRight() {
       arrows[1].style.opacity = "0";
       tri1.style.top = "-600px";
-      tri1.style.right = "-500px";
+      tri1.style.right = "-450px";
     }
 
     function trout() {
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function bottomRight() {
       arrows[2].style.opacity = "0";
       tri2.style.bottom = "-600px";
-      tri2.style.left = "-500px";
+      tri2.style.left = "-450px";
     }
 
     function brout() {
@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/mangere.jpg",
       "../../images/monument.jpg",
       "../../images/oneTree.jpg",
       "../../images/blackSheep.jpg",
@@ -80,6 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "View of Auckland",
       "One Tree Hill Monument",
       "One Tree Hill Domain",
       "Little Black Sheep",
@@ -114,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "Alli at the Oakland Airport"
     ];
     var height = [
+      "333px",
       "500px",
       "333px",
       "333px",
@@ -148,6 +151,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "500px"
     ];
     var width = [
+      "500px",
       "333px",
       "500px",
       "500px",
@@ -182,6 +186,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "October 23, 2017",
       "October 14, 2017",
       "October 14, 2017",
       "October 14, 2017",
@@ -216,6 +221,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "The view of Auckland from the suburb of Mangere.",
       "The One Tree Hill Monument sitting at the top of a volcano.",
       "The view of the city outside the park from One Tree Hill Domain.",
       "A happy little black sheep resting by the fence at One Tree Hill Domain.",

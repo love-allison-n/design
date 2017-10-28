@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function topRight() {
       arrows[1].style.opacity = "0";
       tri1.style.top = "-600px";
-      tri1.style.right = "-500px";
+      tri1.style.right = "-450px";
     }
 
     function trout() {
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function bottomRight() {
       arrows[2].style.opacity = "0";
       tri2.style.bottom = "-600px";
-      tri2.style.left = "-500px";
+      tri2.style.left = "-450px";
     }
 
     function brout() {
@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var tick1 = document.getElementsByClassName('tick1');
     var tick11 = document.getElementsByClassName('tick11');
     var tick12 = document.getElementsByClassName('tick12');
+    var tick13 = document.getElementsByClassName('tick13');
     var header = document.getElementsByTagName('h2');
     var article = document.getElementsByTagName('article');
 
@@ -66,6 +67,8 @@ document.addEventListener("DOMContentLoaded", function() {
     tick11[0].onclick = function() {postFour()};
     tick12[0].onmouseover = function() {header[0].innerHTML = "A City Escape";};
     tick12[0].onclick = function() {postFive()};
+    tick13[0].onmouseover = function() {header[0].innerHTML = "By The Bay";};
+    tick13[0].onclick = function() {postSix()};
 
 
     function postOne() {
@@ -86,6 +89,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function postFive() {
       article[1].innerHTML = "<h1>A City Escape</h1><p>Last weekend, I did something I had been scared to try; I went for a drive.</p><p>New Zealand’s miniature version of zipcar is called CityHop. CityHop accepts international licenses, so I registered and reserved a car for a few hours on Saturday.</p><p>I was nervous to drive in here for the first time for a few reasons. First, cars drive on the left side of the road in New Zealand. This comes with the obvious complications of remembering to turn into the left lane and not the right lane, remembering that it is legal to make a left turn on red lights, and not instinctually drifting over to the right side of the road on residential streets with no centerline. I was also nervous because most vehicles in New Zealand are manual. I do know how to drive a stick shift, but I haven’t had to in four years. I wouldn’t have a problem relearning at home, but added to the pressure of staying on the left side of the road, it seemed daunting. Finally, it seems like I have seen a lot of near car crashes here, especially in the city.</p><p>Luckily, the car was an automatic. And I picked a route that would take me away from the city for a little while to avoid crazy drivers and traffic.</p><p>I was able to focus on staying on the left side of the road, which didn’t turn out to be too hard. The bigger challenge was driving from the right side of the car. The perspective shift made it harder to stay in the middle of a lane. It didn’t take too long to get adjusted, though. It wasn’t nearly as scary as I thought it would be.</p><p>Afterward, I visited a famous park in Auckland. One Tree Hill Domain is another of the many volcanoes that make up Auckland. Around the bottom of the volcano are playgrounds, picnic tables, and a mini zip-line to ride down a small hill. Along the path to the peak, there are fences of cows and, of course, sheep. The peak holds a monument to the Moari people and the beautiful land of New Zealand.</p><p>From the top of the volcano, three other volcanic peaks are visible in the distance. There are great views of the suburbs surrounding the park. It was very serene to know that I was surrounded by the bustle of city life on all sides, yet still be far enough from it all for sheep to graze and to hear nothing but birds.</p><p>One Tree Hill Domain was a great place to relax after the anxiety I had built up over driving. Auckland is full of great little nature reserves, but this one is really incredible.</p>";
+    }
+
+    function postSix() {
+      article[1].innerHTML = "<h1>By The Bay</h1><p>I moved out of the boarding house this week. My job decorating for the holidays isn’t keeping me very busy yet. I don’t want to sit around while I wait for the season to really start.</p><p>I spent a few days in Mangere, a suburb in south Auckland. The Bay borders Mangere on the west side. The area is more rural and has farmland along the water. Farmers grow strawberries and board horses and cattle.</p><p>There is a park full of cattle on the peak of yet another dormant volcano. The cattle roam free through the park which has a fence built around it. On the climb up to the top, hikers have to watch out for scattered cow pies. Though signs ask visitors not to bother the livestock, it wouldn’t be hard to interact with the cattle.</p><p>It is definitely worth the climb to the top. From the peak, I could see the One Tree Hill Monument standing on top of its own peak in the distance. And beyond that, I could see Sky Tower through the clouds and the fog.</p><p>I hadn’t seen a mosquito once while I was in Auckland. Mangere was full of them. I guess being so close to the water is all it takes. It is impossible to go for a walk without hearing buzzing in your ears. Leaving the windows open at night is a bad idea.</p><p>Mangere is another beautiful Auckland suburb. In many ways, though, it is just more of the same. Today I am on a flight to Sydney Australia. It is time for a change of scenery and some new things to see.</p>";
     }
 
   });
