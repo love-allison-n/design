@@ -46,6 +46,13 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/operaBridge.jpg",
+      "../../images/fortune.jpg",
+      "../../images/slitDrum.jpg",
+      "../../images/cockatoo.jpg",
+      "../../images/westfield.jpg",
+      "../../images/ibis.jpg",
+      "../../images/fountain.jpg",
       "../../images/mangere.jpg",
       "../../images/monument.jpg",
       "../../images/oneTree.jpg",
@@ -81,6 +88,13 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "The Sydney Opera House",
+      "Brass Boar",
+      "Slit Drum",
+      "A cockatoo",
+      "Westfield Tower",
+      "White Ibis",
+      "Archibald Fountain",
       "View of Auckland",
       "One Tree Hill Monument",
       "One Tree Hill Domain",
@@ -117,6 +131,13 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
     var height = [
       "333px",
+      "333px",
+      "500px",
+      "333px",
+      "500px",
+      "333px",
+      "333px",
+      "333px",
       "500px",
       "333px",
       "333px",
@@ -152,6 +173,13 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
     var width = [
       "500px",
+      "500px",
+      "333px",
+      "500px",
+      "333px",
+      "500px",
+      "500px",
+      "500px",
       "333px",
       "500px",
       "500px",
@@ -186,6 +214,13 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "October 29, 2017",
+      "October 29, 2017",
+      "October 28, 2017",
+      "October 28, 2017",
+      "October 26, 2017",
+      "October 26, 2017",
+      "October 26, 2017",
       "October 23, 2017",
       "October 14, 2017",
       "October 14, 2017",
@@ -221,6 +256,13 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "The obligatory Sydney Opera House picture. It really is beatiful.",
+      "Leaving a coin and rubbing this boar's nose is good fortune.",
+      "This is a Slit Drum used on the island of Ambrym to transmit messages.",
+      "These Sulfur Crested Cockatoos have a call like a scream.",
+      "Every city needs a tall tower in it's skyline. This is Sydney's.",
+      "These White Ibis birds are as common as Pigeons in Sydney parks.",
+      "This is the dramatic Archibald Fountain in Hyde Park Sydney.",
       "The view of Auckland from the suburb of Mangere.",
       "The One Tree Hill Monument sitting at the top of a volcano.",
       "The view of the city outside the park from One Tree Hill Domain.",
@@ -260,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function() {
     next.onclick = function() {nexts()};
 
     function backs() {
-      if (index < 31) {
+      if (index < 39) {
         index++;
         console.log(index);
         heading[0].innerHTML = headings[index];

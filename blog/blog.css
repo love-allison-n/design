@@ -160,6 +160,7 @@ main section aside:hover {
 }
 .tick2 {
   top: 290px;
+  color:  #000D13;
 }
 .tick21 {
   top: 270px;
@@ -259,11 +260,6 @@ h2 {
 }
 
 /* Article Posts */
-
-main {
-  color: #1E363D;
-}
-
 main article {
   margin-top: 90px;
   margin-left: 320px;
