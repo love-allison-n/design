@@ -256,12 +256,12 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
-      "The obligatory Sydney Opera House picture. It really is beatiful.",
+      "The obligatory beautiful Sydney Opera House picture.",
       "Leaving a coin and rubbing this boar's nose is good fortune.",
-      "This is a Slit Drum used on the island of Ambrym to transmit messages.",
+      "A Slit Drum used on the island of Ambrym to transmit messages.",
       "These Sulfur Crested Cockatoos have a call like a scream.",
       "Every city needs a tall tower in it's skyline. This is Sydney's.",
-      "These White Ibis birds are as common as Pigeons in Sydney parks.",
+      "White Ibis birds are as common as Pigeons in Sydney parks.",
       "This is the dramatic Archibald Fountain in Hyde Park Sydney.",
       "The view of Auckland from the suburb of Mangere.",
       "The One Tree Hill Monument sitting at the top of a volcano.",

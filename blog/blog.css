@@ -1,6 +1,5 @@
 body {
-  background: #879397;
-  background: linear-gradient(#879397, #f5dec0);
+  background: linear-gradient(#fff2df, #ffffef);
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 25px;
 }
@@ -36,7 +35,7 @@ nav img:nth-child(3) {
 
 #tri1 {
   z-index: 9;
-  background: linear-gradient(to left, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, transparent);
+  background: linear-gradient(to left, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, transparent);
   position: fixed;
   top: -800px;
   right: -700px;
@@ -48,7 +47,7 @@ nav img:nth-child(3) {
 
 #tri2 {
   z-index: 9;
-  background: linear-gradient(to right, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, #000D13, transparent);
+  background: linear-gradient(to right, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, transparent);
   position: fixed;
   bottom: -800px;
   left: -700px;
@@ -62,7 +61,7 @@ nav div a {
   position: absolute;
   z-index: 10;
   width: 200px;
-  color: #f5dec0;
+  color: #ffffef;
   font-size: 25px;
   text-decoration: none;
   opacity: .75;
@@ -103,7 +102,6 @@ main section {
   left: 0%;
   width: 220px;
   height: 500px;
-  color: #000D13;
 }
 
 main section img {
@@ -115,10 +113,10 @@ main section img {
 main section aside {
   z-index: 0;
   position: absolute;
-  color:  #f5dec0;
+  color:  #f3e1c7;
   height: 10px;
-  font-size: 12px;
-  margin-top: -6px;
+  font-size: 15px;
+  margin-top: -7px;
   right: 55px;
   opacity: .75;
 }
@@ -136,67 +134,69 @@ main section aside:hover {
 
 .tick01 {
   top: 410px;
-  color:  #000D13;
 }
 .tick02 {
   top: 390px;
-  color:  #000D13;
 }
 .tick1 {
   top: 370px;
-  color:  #000D13;
 }
 .tick11 {
   top: 350px;
-  color:  #000D13;
 }
 .tick12 {
   top: 330px;
-  color:  #000D13;
 }
 .tick13 {
   top: 310px;
-  color:  #000D13;
 }
 .tick2 {
   top: 290px;
-  color:  #000D13;
 }
 .tick21 {
   top: 270px;
 }
 .tick22 {
   top: 250px;
+  color:  #000D13;
 }
 .tick23 {
   top: 230px;
+  color:  #000D13;
 }
 .tick24 {
   top: 210px;
+  color:  #000D13;
 }
 .tick3 {
   top: 190px;
+  color:  #000D13;
 }
 .tick31 {
   top: 170px;
+  color:  #000D13;
 }
 .tick32 {
   top: 150px;
+  color:  #000D13;
 }
 .tick33 {
   top: 130px;
+  color:  #000D13;
 }
 .tick4 {
   top: 110px;
+  color:  #000D13;
 }
 .tick41 {
   top: 90px;
+  color:  #000D13;
 }
+/*
 .tick42 {
   top: 70px;
+  color:  #000D13;
 }
-
-/*
 .tick43 {
   top: 230px;
 }
@@ -255,7 +255,7 @@ h2 {
   text-align: center;
   margin-right: 15px;
   margin-top: 25px;
-  color: #000D13;
+  color: #f3e1c7;
   font-size: 17px;
 }
 
@@ -267,12 +267,14 @@ main article {
 }
 
 main h1 {
+  color: #203457;
   font-size: 45px;
   font-weight: 400;
   margin-bottom: 40px;
 }
 
 main p {
+  color: #203457;
   font-size: 20px;
   width: 85%;
 }
@@ -291,8 +293,8 @@ main div {
   left: 0px;
   height: 775px;
   width: 215px;
-  background-color: #f5dec0;
-  opacity: .5;
+  background-color: #203457;
+  opacity: .7;
 }
 
 /*Hawaii Removable Header*/
@@ -303,7 +305,7 @@ header {
   left: 0px;
   height: 100%;
   width: 100%;
-  color: #f5dec0;
+  color: #f3e1c7;
   opacity: 1;
   transition: 2s;
 }
@@ -324,7 +326,7 @@ header div {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-color: #879397;
+  background-color: #203457;
   opacity: .8;
 }
 
