@@ -319,10 +319,10 @@ document.addEventListener("DOMContentLoaded", function() {
       "Melbourne City at night.",
       "This is a view from the Melbourne Skydeck.",
       "This sculpture moves based on how the wind blows.",
-      "One of the stops along the great Ocean Road.",
-      "One of the stops along the great Ocean Road.",
-      "One of the stops along the great Ocean Road.",
-      "One of the stops along the great Ocean Road.",
+      "One of the stops along the Great Ocean Road.",
+      "One of the stops along the Great Ocean Road.",
+      "One of the stops along the Great Ocean Road.",
+      "One of the stops along the Great Ocean Road.",
       "A statue of Queen Victoria in the Royal Botanical Gardens.",
       "Australia's Shrine of Rememberance.",
       "This is wild Little Penguin: the smallest penguin species.",
@@ -383,7 +383,7 @@ document.addEventListener("DOMContentLoaded", function() {
     next.onclick = function() {nexts()};
 
     function backs() {
-      if (index < 52) {
+      if (index < 51) {
         index++;
         console.log(index);
         heading[0].innerHTML = headings[index];
