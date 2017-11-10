@@ -46,6 +46,18 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/nightTime.jpg",
+      "../../images/skydeck.jpg",
+      "../../images/streetArt.jpg",
+      "../../images/tower.jpg",
+      "../../images/bestBeach.jpg",
+      "../../images/gorge.jpg",
+      "../../images/twelve.jpg",
+      "../../images/queenVic.jpg",
+      "../../images/warMemorial.jpg",
+      "../../images/penguin.jpg",
+      "../../images/pengi.jpg",
+      "../../images/roses.jpg",
       "../../images/operaBridge.jpg",
       "../../images/fortune.jpg",
       "../../images/slitDrum.jpg",
@@ -88,6 +100,18 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "Night time cityscape",
+      "View from the skydeck",
+      "Artistic sculpture at a park",
+      "View from a light house",
+      "The best beach ever",
+      "Loch Ard Gorge",
+      "The Tewlve Apostles",
+      "A statue of Queen Victoria",
+      "The Shrine of Rememberance",
+      "A Little Penguin",
+      "A Little Penguin",
+      "St. Kilda Rose Garden Gazebo",
       "The Sydney Opera House",
       "Brass Boar",
       "Slit Drum",
@@ -134,6 +158,18 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px",
       "500px",
       "333px",
+      "333px",
+      "333px",
+      "333px",
+      "500px",
+      "333px",
+      "500px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "500px",
+      "333px",
       "500px",
       "333px",
       "333px",
@@ -176,6 +212,18 @@ document.addEventListener("DOMContentLoaded", function() {
       "500px",
       "333px",
       "500px",
+      "500px",
+      "500px",
+      "500px",
+      "333px",
+      "500px",
+      "333px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "333px",
+      "500px",
       "333px",
       "500px",
       "500px",
@@ -214,6 +262,18 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "November 8, 2017",
+      "November 8, 2017",
+      "November 8, 2017",
+      "November 4, 2017",
+      "Novemebr 4, 2017",
+      "November 4, 2017",
+      "November 4, 2017",
+      "November 3, 2017",
+      "November 3, 2017",
+      "November 2, 2017",
+      "November 2, 2017",
+      "November 2, 2017",
       "October 29, 2017",
       "October 29, 2017",
       "October 28, 2017",
@@ -256,6 +316,18 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "Melbourne City at night.",
+      "This is a view from the Melbourne Skydeck.",
+      "This sculpture moves based on how the wind blows.",
+      "One of the stops along the great Ocean Road.",
+      "One of the stops along the great Ocean Road.",
+      "One of the stops along the great Ocean Road.",
+      "One of the stops along the great Ocean Road.",
+      "A statue of Queen Victoria in the Royal Botanical Gardens.",
+      "Australia's Shrine of Rememberance.",
+      "This is wild Little Penguin: the smallest penguin species.",
+      "This is wild Little Penguin: the smallest penguin species.",
+      "It's me, again, at the St Kilda Botanical Gardens.",
       "The obligatory beautiful Sydney Opera House picture.",
       "Leaving a coin and rubbing this boar's nose is good fortune.",
       "A Slit Drum used on the island of Ambrym to transmit messages.",
@@ -298,11 +370,20 @@ document.addEventListener("DOMContentLoaded", function() {
       "It's me! Outide the Oakland Airport before my flight to Auckland."
     ];
 
+    heading[0].innerHTML = headings[0];
+    describe[0].innerHTML = descriptions[0];
+    photo.src = source[0];
+    photo.alt = alternate[0];
+    photo.style.height = height[0];
+    photo.style.marginTop = "calc(-"+height[0]+"/2)";
+    photo.style.width = width[index];
+    photo.style.marginRight = "calc(-"+width[0]+"/2)";
+
     back.onclick = function () {backs()};
     next.onclick = function() {nexts()};
 
     function backs() {
-      if (index < 39) {
+      if (index < 52) {
         index++;
         console.log(index);
         heading[0].innerHTML = headings[index];
