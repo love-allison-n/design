@@ -46,6 +46,13 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/kangaroo.jpg",
+      "../../images/peccarie.jpg",
+      "../../images/tapir.jpg",
+      "../../images/wombat.jpg",
+      "../../images/butterfly.jpg",
+      "../../images/koala.jpg",
+      "../../images/star.jpg",
       "../../images/nightTime.jpg",
       "../../images/skydeck.jpg",
       "../../images/streetArt.jpg",
@@ -100,6 +107,13 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "A kangaroo",
+      "A peccarie",
+      "A Tapir",
+      "A wombat",
+      "Butterfly House",
+      "Lily the koala",
+      "Alli on the Melbourne Star",
       "Night time cityscape",
       "View from the skydeck",
       "Artistic sculpture at a park",
@@ -156,6 +170,13 @@ document.addEventListener("DOMContentLoaded", function() {
     var height = [
       "333px",
       "333px",
+      "333px",
+      "333px",
+      "333px",
+      "500px",
+      "333px",
+      "333px",
+      "333px",
       "500px",
       "333px",
       "333px",
@@ -210,6 +231,13 @@ document.addEventListener("DOMContentLoaded", function() {
     var width = [
       "500px",
       "500px",
+      "500px",
+      "500px",
+      "500px",
+      "333px",
+      "500px",
+      "500px",
+      "500px",
       "333px",
       "500px",
       "500px",
@@ -262,6 +290,13 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "November 9, 2017",
+      "November 9, 2017",
+      "November 9, 2017",
+      "Novemebr 9, 2017",
+      "November 9, 2017",
+      "November 9, 2017",
+      "November 8, 2017",
       "November 8, 2017",
       "November 8, 2017",
       "November 8, 2017",
@@ -316,6 +351,13 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "A Kangaroo at the Melbourne Zoo. The wild kagaroos I saw were much more gray.",
+      "This peccarie at the Melbourne Zoo is like a small pig.",
+      "This is a tapir at the Melbourne Zoo.",
+      "A wombat sleeping through the morning at the Melbourne Zoo",
+      "In the Butterfly House at the Melbourne Zoo.",
+      "This is Lily the koala having breakfast at the Melbourne Zoo.",
+      "It's me riding the Melbourne star.",
       "Melbourne City at night.",
       "This is a view from the Melbourne Skydeck.",
       "This sculpture moves based on how the wind blows.",
@@ -383,7 +425,7 @@ document.addEventListener("DOMContentLoaded", function() {
     next.onclick = function() {nexts()};
 
     function backs() {
-      if (index < 51) {
+      if (index < 58) {
         index++;
         console.log(index);
         heading[0].innerHTML = headings[index];

@@ -158,7 +158,6 @@ main section aside:hover {
 }
 .tick22 {
   top: 250px;
-  color:  #000D13;
 }
 .tick23 {
   top: 230px;
@@ -356,4 +355,12 @@ header aside {
   font-size: 15px;
   opacity: 1;
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  header h1 {
+    font-size: 15px,
+    color: red;
+  }
+
 }

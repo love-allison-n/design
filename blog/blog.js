@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     hit.onclick = function() {myFunction()};
 
     function myFunction() {
-      up.style.top = "-110%";
+      up.style.top = "-200%";
       hit.style.opacity = "0";
     }
 
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
       tick12[0].style.right = "55px"; tick12[0].style.opacity = ".75"; tick12[0].style.color = "#f3e1c7";
       tick13[0].style.right = "55px"; tick13[0].style.opacity = ".75"; tick13[0].style.color = "#f3e1c7";
       tick21[0].style.right = "55px"; tick21[0].style.opacity = ".75"; tick21[0].style.color = "#f3e1c7";
-      tick22[0].style.right = "55px"; tick22[0].style.opacity = ".75"; tick22[0].style.color = "#000D13";
+      tick22[0].style.right = "55px"; tick22[0].style.opacity = ".75"; tick22[0].style.color = "#f3e1c7";
       tick23[0].style.right = "55px"; tick23[0].style.opacity = ".75"; tick23[0].style.color = "#000D13";
       tick24[0].style.right = "55px"; tick24[0].style.opacity = ".75"; tick24[0].style.color = "#000D13";
       tick3[0].style.right = "55px"; tick3[0].style.opacity = ".75"; tick3[0].style.color = "#000D13";
@@ -153,8 +153,16 @@ document.addEventListener("DOMContentLoaded", function() {
       tick21[0].style.right = "-65px"; tick21[0].style.opacity = "1"; tick21[0].style.color = "#000D13";
     }
 
+    function postNine() {
+      article[1].innerHTML = "<h1>Australian Wildlife</h1><p>Wildlife in Australia is different from wildlife in the US. But more surprisingly, it is also completely different from wildlife in New Zealand. Both have been isolated by ocean for so long, that evolution has had its chance to run wild.</p><p>Both Australia and New Zealand completely lack large mammals and natural predators. In New Zealand, mammals hardly exist at all. Bats and marine mammals, like dolphins, are New Zealand’s only persisting native mammals. Humans have now introduced rats, cats, dogs, cattle, sheep, etc. But there is still a distinct lack of predators for small animals, which is why the Kiwi, and many other relatively large and unique birds, insects, and amphibians have survived and flourished here.</p><p>In Australia, on the other hand, smaller mammals do exist naturally, but they are unlike anything in the US.  Cute little koalas and wombats are some of Australia’s bears, but neither gets to be larger than a dog. They are fat and cuddly and look nothing like our intimidating brown bears. Then there are Kangaroos, which seem closest to a small horse that jumps around on two legs. The wild kangaroos I saw on a hike were probably half my size again, but even that’s not very big. They move more like frogs than any mammal I’ve ever seen. They have the ears of a donkey, and the whiskers of a cat, not to mention their super weird biology. But kangaroos aren’t even as surprising as the platypus, which I can’t compare to anything at all. It’s just a really graceful swimmer whose head looks exactly like its tail. None of these animals have natural predators, so they have survived well despite being small and, in the case of a koala, sleeping for 22 hours a day. They just have to watch out for cars and bulldozers.</p><p>Australia also has a huge variety of birds. The macaw is a white bird with a yellow crown, and the call like a screeching child. Then there are all the colorful ducks and birds that stand out from the mostly brown birds we know. Emu’s, of course, are one of the craziest birds I have ever seen. But somehow, despite warm summers, south Australia is home to penguins. I got to see these penguins at the zoo, but I also got to see them in the wild at a small beach outside of Melbourne’s CBD. These penguins are small compared to empire penguins, and are mostly white and a dark iridescent blue. They are super cute, and also really great swimmers. Before leaving California, I never thought I’d see penguins in their natural habitat, but I also didn’t know they lived in Australia. Now I just have to find the New Zealand penguins.</p><p>Fortunately, because I stayed mostly in the city, I got to see the exciting wildlife without dealing with crazy insects or poisonous snakes or crocodiles. And no Dan, I didn’t see a cane toad; I was in the wrong area. But overall, I had great experiences and loved seeing some animals I had never seen before.</p>";
+
+      reset();
+
+      tick22[0].style.right = "-65px"; tick22[0].style.opacity = "1"; tick22[0].style.color = "#000D13";
+    }
+
     header[0].innerHTML = "Most Livable City";
-    postEight();
+    postNine();
 
     tick01[0].onmouseover = function() {header[0].innerHTML = "Feet on Solid Ground";};
     tick01[0].onclick = function() {postOne()};
@@ -172,5 +180,7 @@ document.addEventListener("DOMContentLoaded", function() {
     tick2[0].onclick = function() {postSeven()};
     tick21[0].onmouseover = function() {header[0].innerHTML = "Most Livable City";};
     tick21[0].onclick = function() {postEight()};
+    tick22[0].onmouseover = function() {header[0].innerHTML = "Australian Wildlife";};
+    tick22[0].onclick = function() {postNine()};
 
   });
