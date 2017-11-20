@@ -2,40 +2,27 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
 
+
 // Navigation across site
     var arrows = document.getElementsByTagName('img');
     var tri1 = document.getElementById('tri1');
-    var tri2 = document.getElementById('tri2');
     var stay = false;
 
     arrows[1].onmouseover = function() {topRight()};
     tri1.onmouseleave = function() {trout()};
-    arrows[2].onmouseover = function() {bottomRight()};
-    tri2.onmouseleave = function() {brout()};
 
     function topRight() {
       arrows[1].style.opacity = "0";
-      tri1.style.top = "-600px";
-      tri1.style.right = "-450px";
+      tri1.style.top = "-180px";
+      tri1.style.right = "-50px";
     }
 
     function trout() {
       arrows[1].style.opacity = "1";
-      tri1.style.top = "-800px";
-      tri1.style.right = "-700px";
+      tri1.style.top = "-350px";
+      tri1.style.right = "-200px";
     }
 
-    function bottomRight() {
-      arrows[2].style.opacity = "0";
-      tri2.style.bottom = "-600px";
-      tri2.style.left = "-450px";
-    }
-
-    function brout() {
-      arrows[2].style.opacity = "1";
-      tri2.style.bottom = "-800px";
-      tri2.style.left = "-700px";
-    }
 
   // Navigation through images
     var back = document.getElementById('back');

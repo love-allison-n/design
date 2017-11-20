@@ -1,5 +1,5 @@
 body {
-  background: #ffffef;
+  background: #ffece2;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 25px;
   position: fixed;
@@ -38,63 +38,36 @@ nav img:nth-child(3) {
 
 #tri1 {
   z-index: 9;
-  background: linear-gradient(to left, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, transparent);
+  background: linear-gradient(to bottom, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, transparent);
   position: fixed;
-  top: -800px;
-  right: -700px;
+  top: -300px;
+  right: -400px;
   width: 800px;
-	height: 1000px;
+	height: 250px;
   transition: 1s;
-  transform: rotate(-45deg);
+  transform: rotate(10deg);
 }
 
-#tri2 {
-  z-index: 9;
-  background: linear-gradient(to right, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, #15233d, transparent);
-  position: fixed;
-  bottom: -800px;
-  left: -700px;
-  width: 800px;
-	height: 1000px;
-  transition: 1s;
-  transform: rotate(-45deg);
-}
-
-nav div a {
-  position: absolute;
+menu {
   z-index: 10;
-  width: 200px;
-  color: #ffffef;
-  font-size: 25px;
+  transform: rotate(-10deg);
+  text-align: right;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+
+nav div a{
+  color: #ffece2;
+  font-size: 15px;
   text-decoration: none;
-  opacity: .75;
-  transform: rotate(45deg);
+  opacity: .85;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 nav div a:hover {
   opacity: 1;
-}
-
-#dp {
-  bottom: 500px;
-  left: 75px;
-}
-
-#hp {
-  bottom: 440px;
-  left: 75px;
-}
-
-#bh {
-  text-align: right;
-  right: 80px;
-  top: 435px;
-}
-
-#pg {
-  text-align: right;
-  right: 95px;
-  top: 483px;
 }
 
 main {
@@ -121,7 +94,7 @@ main {
   height: 0px;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-bottom: 25px solid #203457;
+  border-bottom: 25px solid #091f2d;
   margin: auto;
 }
 
@@ -130,7 +103,7 @@ main {
   height: 0px;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-top: 25px solid #203457;
+  border-top: 25px solid #091f2d;
   margin: auto;
 }
 
@@ -154,7 +127,7 @@ p {
 
 #pics {
   position: absolute;
-  background-color: #15233d;
+  background-color: #091f2d;
   height: 500px;
   width: 500px;
   top: 0px;
