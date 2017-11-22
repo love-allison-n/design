@@ -156,7 +156,16 @@ document.addEventListener("DOMContentLoaded", function() {
       tick22[0].style.right = "-65px"; tick22[0].style.opacity = "1"; tick22[0].style.color = "#000D13";
     }
 
-    postNine();
+    function postTen() {
+      article[1].innerHTML = "<h1>Spiraling</h1><p>What a week. I arrived back in Auckland seven days ago, and that’s all it took for me to go a little crazy.</p><p>I’d applied to some more jobs in the Auckland area, and got very close to accepting two part time jobs. As I went to interviews and meetings and filled out paper work and checked out housing near the work, jumping through all the hoops, my stress levels rose. I couldn’t make the math work. Everything I earned would go to food housing, and not even good food or comfortable housing. And the commitment of staying in Auckland for 6 months would eat up so much time that I could be traveling.</p><p>Though Auckland has been fun to explore and experience, I don’t think it’s the right place for me to live. I’m not into rugby and I’m not sure what else I would do for fun. Most people in Auckland, aside from travelers, go to work, run errands, and then go home.</p><p>Trying to find a to be happy to stay in Auckland seemed impossible and the idea of staying here was making me dread the upcoming months. I started to feel like I would rather be looking for and finding these jobs back in California. Since that is totally an option, and likely my future anyway, I’ve decided living in New Zealand isn’t worth the stress. I had so much fun experiencing Australia like a tourist and I want to have that feeling about New Zealand as well. I’d rather travel New Zealand, even if for a short time, and stress about finding work when I come home.</p><p>I don’t have much else to say about this week, which is further proof to me that I am making the right decision. I’ll spend the next couple of days planning, and then I will be off to see the rest of New Zealand. I expect to have much more to say next week.</p>";
+      pdfprint.href = "print/australianWildlife.pdf";
+
+      reset();
+
+      tick23[0].style.right = "-65px"; tick23[0].style.opacity = "1"; tick23[0].style.color = "#000D13";
+    }
+
+    postTen();
 
     tick01[0].onmouseover = function() {header[0].innerHTML = "Feet on Solid Ground";};
     tick01[0].onmouseout = function() {header[0].innerHTML = "";};
@@ -185,5 +194,8 @@ document.addEventListener("DOMContentLoaded", function() {
     tick22[0].onmouseover = function() {header[0].innerHTML = "Australian Wildlife";};
     tick22[0].onmouseout = function() {header[0].innerHTML = "";};
     tick22[0].onclick = function() {postNine()};
+    tick23[0].onmouseover = function() {header[0].innerHTML = "Spiraling";};
+    tick23[0].onmouseout = function() {header[0].innerHTML = "";};
+    tick23[0].onclick = function() {postTen()};
 
   });
