@@ -377,13 +377,13 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
     var descriptions = [
       "A Mother quail and her 14 chicks stumbling across the forest path.",
-      "I found this along the coast of the Bay of Islands.",
+      "I found this crab along the coast of the Bay of Islands.",
       "This is a view of part of the expansive Bay if Islands.",
       "This is the vast Ninety-Mile Beach stretching beyond the horizon.",
-      "Another great water fall in Kerikeri.",
+      "A great waterfall in the Kerikeri Basin.",
       "The beatiful Rainbow Falls in Kerikeri.",
       "I saw multible bunnies along the Rainbow Falls track.",
-      "This is the begining of on of the forest tracks completely shaded by trees.",
+      "This is the begining of one of the forest tracks completely shaded by trees.",
       "A Kangaroo at the Melbourne Zoo. The wild kagaroos I saw were much more gray.",
       "This peccarie at the Melbourne Zoo is like a small pig.",
       "This is a tapir at the Melbourne Zoo.",
