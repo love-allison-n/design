@@ -11,17 +11,15 @@ document.addEventListener("DOMContentLoaded", function() {
     arrows[1].onmouseover = function() {topRight()};
     tri1.onmouseleave = function() {trout()};
 
-    function topRight() {
-      arrows[1].style.opacity = "0";
-      tri1.style.top = "-180px";
-      tri1.style.right = "-50px";
-    }
+        function topRight() {
+          arrows[1].style.opacity = "0";
+          tri1.style.right = "-40px";
+        }
 
-    function trout() {
-      arrows[1].style.opacity = "1";
-      tri1.style.top = "-350px";
-      tri1.style.right = "-200px";
-    }
+        function trout() {
+          arrows[1].style.opacity = "1";
+          tri1.style.right = "-600px";
+        }
 
 
   // Navigation through images
@@ -33,6 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/qual.jpg",
+      "../../images/crab.jpg",
+      "../../images/boi.jpg",
+      "../../images/ninetyMile.jpg",
+      "../../images/basin.jpg",
+      "../../images/rainbowFalls.jpg",
+      "../../images/bunny.jpg",
+      "../../images/treeTunnel.jpg",
       "../../images/kangaroo.jpg",
       "../../images/peccarie.jpg",
       "../../images/tapir.jpg",
@@ -94,6 +100,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "Mother Quail and her chicks",
+      "A crab on the beach",
+      "Bay of Islands",
+      "Ninety Mile Beach",
+      "Kerikeri Basin",
+      "Rainbow Falls",
+      "A cute little bunny",
+      "A tree tunnel",
       "A kangaroo",
       "A peccarie",
       "A Tapir",
@@ -160,6 +174,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px",
       "333px",
       "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
       "500px",
       "333px",
       "333px",
@@ -221,6 +243,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "500px",
       "500px",
       "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
       "333px",
       "500px",
       "500px",
@@ -277,6 +307,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "November 29, 2017",
+      "November 28, 2017",
+      "November 28, 2017",
+      "November 28, 2017",
+      "November 25, 2017",
+      "November 25, 2017",
+      "November 25, 2017",
+      "November 25, 2017",
       "November 9, 2017",
       "November 9, 2017",
       "November 9, 2017",
@@ -338,6 +376,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "A Mother quail and her 14 chicks stumbling across the forest path.",
+      "I found this along the coast of the Bay of Islands.",
+      "This is a view of part of the expansive Bay if Islands.",
+      "This is the vast Ninety-Mile Beach stretching beyond the horizon.",
+      "Another great water fall in Kerikeri.",
+      "The beatiful Rainbow Falls in Kerikeri.",
+      "I saw multible bunnies along the Rainbow Falls track.",
+      "This is the begining of on of the forest tracks completely shaded by trees.",
       "A Kangaroo at the Melbourne Zoo. The wild kagaroos I saw were much more gray.",
       "This peccarie at the Melbourne Zoo is like a small pig.",
       "This is a tapir at the Melbourne Zoo.",
@@ -404,15 +450,15 @@ document.addEventListener("DOMContentLoaded", function() {
     photo.src = source[0];
     photo.alt = alternate[0];
     photo.style.height = height[0];
-    photo.style.marginTop = "calc(-"+height[0]+"/2)";
-    photo.style.width = width[index];
-    photo.style.marginRight = "calc(-"+width[0]+"/2)";
+    photo.style.marginTop = "calc(-"+height[0]+"/2 + 10px)";
+    photo.style.width = width[0];
+    photo.style.marginRight = "calc(-"+width[0]+"/2 + 10px)";
 
     back.onclick = function () {backs()};
     next.onclick = function() {nexts()};
 
     function backs() {
-      if (index < 58) {
+      if (index < 66) {
         index++;
         console.log(index);
         heading[0].innerHTML = headings[index];
@@ -420,9 +466,9 @@ document.addEventListener("DOMContentLoaded", function() {
         photo.src = source[index];
         photo.alt = alternate[index];
         photo.style.height = height[index];
-        photo.style.marginTop = "calc(-"+height[index]+"/2)";
+        photo.style.marginTop = "calc(-"+height[index]+"/2 + 10px)";
         photo.style.width = width[index];
-        photo.style.marginRight = "calc(-"+width[index]+"/2)";
+        photo.style.marginRight = "calc(-"+width[index]+"/2 + 10px)";
       }
     }
 
@@ -435,9 +481,9 @@ document.addEventListener("DOMContentLoaded", function() {
         photo.src = source[index];
         photo.alt = alternate[index];
         photo.style.height = height[index];
-        photo.style.marginTop = "calc(-"+height[index]+"/2)";
+        photo.style.marginTop = "calc(-"+height[index]+"/2 + 10px)";
         photo.style.width = width[index];
-        photo.style.marginRight = "calc(-"+width[index]+"/2)";
+        photo.style.marginRight = "calc(-"+width[index]+"/2 + 10px)";
       }
     }
 

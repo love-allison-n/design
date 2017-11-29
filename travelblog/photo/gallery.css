@@ -23,38 +23,30 @@ nav img:nth-child(1) {
 }
 
 nav img:nth-child(2) {
-  height: 50px;
-  width: 50px;
-  top: 10px;
-  right: 10px;
-}
-
-nav img:nth-child(3) {
-  height: 50px;
-  width: 50px;
-  bottom: 10px;
-  left:10px;
+  height: 30px;
+  width: 40px;
+  top: 15px;
+  right: 15px;
 }
 
 #tri1 {
   z-index: 9;
-  background: linear-gradient(to bottom, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, transparent);
+  background: #091f2d;
+  border-radius: 30px;
   position: fixed;
-  top: -300px;
-  right: -400px;
-  width: 800px;
-	height: 250px;
+  top: -40px;
+  right: -600px;
+  width: 540px;
+	height: 100px;
   transition: 1s;
-  transform: rotate(10deg);
 }
 
 menu {
   z-index: 10;
-  transform: rotate(-10deg);
-  text-align: right;
+  text-align: left;
   position: absolute;
-  bottom: 30px;
-  right: 50px;
+  bottom: -5px;
+  left: 10px;
 }
 
 nav div a{
@@ -127,7 +119,9 @@ p {
 
 #pics {
   position: absolute;
-  background-color: #091f2d;
+  padding: 10px;
+  border: 5px solid #091f2d;
+  border-radius: 20px;
   height: 500px;
   width: 500px;
   top: 0px;
@@ -140,7 +134,8 @@ p {
   width: 500px;
   right: 250px;
   top: 250px;
-  margin-right: calc(-500px/2);
-  margin-top: calc(-333px/2);
-
+/*  margin-right: calc(-333px/2);
+  margin-right: calc(-500px/2-10);
+  margin-top: calc(-333px/2-10);
+*/
 }

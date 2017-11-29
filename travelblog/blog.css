@@ -14,44 +14,38 @@ nav img {
   z-index: 10;
   position: fixed;
 }
+
 nav img:nth-child(1) {
   top: 50px;
   left: 30px;
 }
 
 nav img:nth-child(2) {
-  height: 50px;
-  width: 50px;
-  top: 10px;
-  right: 10px;
-}
-
-nav img:nth-child(3) {
-  height: 50px;
-  width: 50px;
-  bottom: 10px;
-  left:10px;
+  z-index: 8;
+  height: 30px;
+  width: 40px;
+  top: 15px;
+  right: 15px;
 }
 
 #tri1 {
   z-index: 9;
-  background: linear-gradient(to bottom, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, #091f2d, transparent);
+  background: #091f2d;
+  border-radius: 30px;
   position: fixed;
-  top: -300px;
-  right: -400px;
-  width: 800px;
-	height: 250px;
+  top: -40px;
+  right: -600px;
+  width: 540px;
+	height: 100px;
   transition: 1s;
-  transform: rotate(10deg);
 }
 
 menu {
   z-index: 10;
-  transform: rotate(-10deg);
-  text-align: right;
+  text-align: left;
   position: absolute;
-  bottom: 30px;
-  right: 50px;
+  bottom: -5px;
+  left: 10px;
 }
 
 nav div a{
@@ -71,10 +65,10 @@ nav div a:hover {
 main section {
   z-index: 0;
   position: fixed;
-  top: 20%;
-  left: 0%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
   width: 220px;
-  height: 500px;
 }
 
 main section img {
@@ -86,12 +80,11 @@ main section img {
 main section aside {
   z-index: 0;
   position: absolute;
-  color:  #ffece2;
   height: 10px;
+  color: white;
   font-size: 15px;
   margin-top: -7px;
   right: 55px;
-  opacity: 1;
 }
 
 main section aside:hover {
@@ -101,88 +94,80 @@ main section aside:hover {
 #line {
   position: absolute;
   right: 3px;
-  top: 20px;
+  top: 0px;
+  height: 100%;
 }
 
 .tick01 {
-  top: 410px;
+  bottom: calc(15% + (85% - 200px)*0/22);
 }
 .tick02 {
-  top: 390px;
+  bottom: calc(15% + (85% - 200px)*1/22);
 }
 .tick1 {
-  top: 370px;
+  bottom: calc(15% + (85% - 200px)*2/22);
 }
 .tick11 {
-  top: 350px;
+  bottom: calc(15% + (85% - 200px)*3/22);
 }
 .tick12 {
-  top: 330px;
+  bottom: calc(15% + (85% - 200px)*4/22);
 }
 .tick13 {
-  top: 310px;
+  bottom: calc(15% + (85% - 200px)*5/22);
 }
 .tick2 {
-  top: 290px;
+  bottom: calc(15% + (85% - 200px)*6/22);
 }
 .tick21 {
-  top: 270px;
+  bottom: calc(15% + (85% - 200px)*7/22);
 }
 .tick22 {
-  top: 250px;
+  bottom: calc(15% + (85% - 200px)*8/22);
 }
 .tick23 {
-  top: 230px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*9/22);
 }
 .tick24 {
-  top: 210px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*10/22);
 }
 .tick3 {
-  top: 190px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*11/22);
 }
 .tick31 {
-  top: 170px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*12/22);
 }
 .tick32 {
-  top: 150px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*13/22);
 }
 .tick33 {
-  top: 130px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*14/22);
 }
 .tick4 {
-  top: 110px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*15/22);
 }
 .tick41 {
-  top: 90px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*16/22);
 }
-/*
 .tick42 {
-  top: 70px;
-  color:  #000D13;
+  bottom: calc(15% + (85% - 200px)*17/22);
 }
 .tick43 {
-  top: 230px;
+  bottom: calc(15% + (85% - 200px)*18/22);
 }
 .tick44 {
-  top: 220px;
+  bottom: calc(15% + (85% - 200px)*19/22);
 }
 .tick5 {
-    top: 210px;
+  bottom: calc(15% + (85% - 200px)*20/22);
 }
 .tick51 {
-  top: 200px;
+  bottom: calc(15% + (85% - 200px)*21/22);
 }
 .tick52 {
-  top: 190px;
+  bottom: calc(15% + (85% - 200px)*22/22);
 }
+/*
 .tick53 {
   top: 180px;
 }
@@ -225,7 +210,7 @@ h2 {
   z-index: 0;
   text-align: center;
   margin-right: 15px;
-  margin-top: 25px;
+  margin-top: 140px;
   color: #ffece2;
   font-size: 17px;
 }
@@ -271,7 +256,7 @@ main div {
   height: 775px;
   width: 215px;
   background-color: #091f2d;
-  opacity: .7;
+  opacity: .6;
 }
 
 /*Hawaii Removable Header*/
@@ -288,6 +273,8 @@ header {
 }
 
 header img {
+  background-image: url(../images/backblog.jpg);
+  background-size: cover;
   z-index: 1;
   position: absolute;
   top: 0px;
@@ -304,7 +291,7 @@ header div {
   width: 100%;
   height: 100%;
   background-color: #091f2d;
-  opacity: .8;
+  opacity: .7;
 }
 
 header article {
@@ -326,11 +313,11 @@ header p {
 }
 
 #hit {
-  background-color: #ffece2;
+  background: linear-gradient(#ffece2, #ffffef);
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 15px 5px 15px;
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   right: 43%;
   color: #000D13;
   font-size: 15px;
@@ -338,14 +325,94 @@ header p {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 900px) {
-  body{
-    background: #ffffef;
+@media only print {
+  nav, header, #pic, main div, main section {
+    opacity: 0;
+  }
+
+  main article {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+
+}
+
+
+
+/*
+@media only screen and (max-width: 800px) {
+
+  nav img:nth-child(1) {
+    top: 100px;
+    left: 60px;
+    height: 150px;
+    width: 305px;
+  }
+
+  nav img:nth-child(2) {
+    height: 75px;
+    width: 100px;
+    top: 125px;
+    right: 125px;
+  }
+
+
+  header article {
+    top: 450px;
+    left: 125px;
+    width: 90%;
   }
 
   header h1 {
-    font-size: 15px,
-    color: red;
+    font-size: 45px;
+    margin-bottom: 100px;
   }
 
+  header p {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  main section img, main section aside{
+    opacity: 0;
+  }
+
+  main img {
+    z-index: 0;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+  }
+
+  main article {
+    margin-top: 450px;
+    margin-left: 125px;
+    margin-bottom: 100px;
+  }
+
+  main h1 {
+    font-size: 45px;
+    margin-bottom: 100px;
+  }
+
+  main p {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  #hit {
+    background: linear-gradient(#ffece2, #ffffef);
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    position: fixed;
+    bottom: 100px;
+    right: 40%;
+    color: #000D13;
+    font-size: 25px;
+  }
+
+*/
 }
