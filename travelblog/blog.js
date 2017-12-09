@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
       tick22[0].style.right = "55px"; tick22[0].style.color = "#ffece2";
       tick23[0].style.right = "55px"; tick23[0].style.color = "#ffece2";
       tick24[0].style.right = "55px"; tick24[0].style.color = "#ffece2";
-      tick3[0].style.right = "55px"; tick3[0].style.color = "#000D13";
+      tick3[0].style.right = "55px"; tick3[0].style.color = "#ffece2";
       tick31[0].style.right = "55px"; tick31[0].style.color = "#000D13";
       tick32[0].style.right = "55px"; tick32[0].style.color = "#000D13";
       tick33[0].style.right = "55px"; tick33[0].style.color = "#000D13";
@@ -170,7 +170,15 @@ document.addEventListener("DOMContentLoaded", function() {
       tick24[0].style.right = "-65px"; tick24[0].style.opacity = "1"; tick24[0].style.color = "#000D13";
     }
 
-    postEleven();
+    function postTwelve() {
+      article[1].innerHTML = "<h1>Perfection</h1><p>This week I got to experience some of the world’s perfection.  I spent most of the week in Whangarei, which is the largest town in New Zealand north of Auckland, though it’s still quite small. I met a German traveler at the holiday park where I was staying and she and I went to go see Mermaid Pools together.</p><p>The Mermaid Pools were a 30-minute drive up the Coast, and the holiday park manager told us that hitchhiking is the best way to get there, so I had my first hitchhiking experience, and it was great. It’s definitely not something I would do in the US, but in New Zealand hitchhiking is both common and safe. It’s like asking a friend for a ride, but you haven’t met the friend before.</p><p>So a really sweet retired couple stopped outside of our hostel while on their way to a day on the beach, and they picked up my new friend and I. Hearing that we were travelers they offered to show us some interesting spots along the coast including their holiday home, a school across the street from a beach, and a lookout over the bay. Then they left us safely at Matapouri Bay.</p><p>Matapouri Bay has a huge horseshoe shaped beach and at one end there is a steep hike, up hill then down, to a section of the coast that consists of very uneven rock. When the tide goes out, the ocean leaves behind beautiful, pristine, green and blue pools in the low points of the rocks. These pools are big enough to swim in, but warm because they are shallow enough for the sun to heat the water. Meanwhile, the ocean is throwing white water at the rocks just below the pools, and the view is of the ocean and some islands on the horizon. I imagine you’re ten times more likely to see a mermaid at the Matapouri Mermaid Pools than anywhere else in the world, but we didn’t see any while we were there.</p><p>I did get to see Sia at her Auckland concert this week. She and her dancers are amazing performers. Sia is an amazing singer with an amazing range and near perfect pitch. Most musicians address the audience a few times during a concert, but the only words she spoke were “Thank you, I love you” at the end of the night. This of course adds to the mystery and intrigue that she has built around herself.</p><p>The dancers are extremely talented and dance with every part of their bodies including their faces. They do an incredible job of conveying the emotion behind Sia’s music and are so engaging.</p><p>It was an incredible night, and it seemed like all of Auckland turned up for it. Public transportation timetables were changed to accommodate the thousands of people who showed up to the concert. I can only imagine that the city was very empty and quiet that night. I’m glad I got to be a part of it.</p>";
+
+      reset();
+
+      tick3[0].style.right = "-65px"; tick3[0].style.opacity = "1"; tick3[0].style.color = "#000D13";
+    }
+
+    postTwelve();
 
     tick01[0].onmouseover = function() {header[0].innerHTML = "Feet on Solid Ground";};
     tick01[0].onmouseout = function() {header[0].innerHTML = "";};
@@ -205,5 +213,8 @@ document.addEventListener("DOMContentLoaded", function() {
     tick24[0].onmouseover = function() {header[0].innerHTML = "Middle Earth";};
     tick24[0].onmouseout = function() {header[0].innerHTML = "";};
     tick24[0].onclick = function() {postEleven()};
+    tick3[0].onmouseover = function() {header[0].innerHTML = "Perfection";};
+    tick3[0].onmouseout = function() {header[0].innerHTML = "";};
+    tick3[0].onclick = function() {postTwelve()};
 
   });

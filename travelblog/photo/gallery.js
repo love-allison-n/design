@@ -31,9 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/mermaid.jpg",
+      "../../images/lookout.jpg",
+      "../../images/stream.jpg",
+      "../../images/falls.jpg",
       "../../images/qual.jpg",
       "../../images/crab.jpg",
       "../../images/boi.jpg",
+      "../../images/jumpingOff.jpg",
       "../../images/ninetyMile.jpg",
       "../../images/basin.jpg",
       "../../images/rainbowFalls.jpg",
@@ -100,9 +105,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "The Mermaid Pools",
+      "Coastal View",
+      "A stream",
+      "Whangarei Falls",
       "Mother Quail and her chicks",
       "A crab on the beach",
       "Bay of Islands",
+      "The Jumping Off Point",
       "Ninety Mile Beach",
       "Kerikeri Basin",
       "Rainbow Falls",
@@ -169,6 +179,11 @@ document.addEventListener("DOMContentLoaded", function() {
       "Alli at the Oakland Airport"
     ];
     var height = [
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
       "333px",
       "333px",
       "333px",
@@ -251,6 +266,11 @@ document.addEventListener("DOMContentLoaded", function() {
       "500px",
       "500px",
       "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
       "333px",
       "500px",
       "500px",
@@ -307,7 +327,12 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "December 1, 2017",
+      "December 1, 2017",
+      "November 30, 2017",
+      "November 30, 2017",
       "November 29, 2017",
+      "November 28, 2017",
       "November 28, 2017",
       "November 28, 2017",
       "November 28, 2017",
@@ -376,9 +401,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "The Mermaid Pools next to the ocean.",
+      "This is the view from a hill along the Whangarei Coast.",
+      "This stream is fed by the Whangarei Falls.",
+      "The Whangarei Falls a short walk from where i was staying.",
       "A Mother quail and her 14 chicks stumbling across the forest path.",
       "I found this crab along the coast of the Bay of Islands.",
       "This is a view of part of the expansive Bay if Islands.",
+      "This is the small tree at the Jumping Off Point where Maori spirits leave New Zealand.",
       "This is the vast Ninety-Mile Beach stretching beyond the horizon.",
       "A great waterfall in the Kerikeri Basin.",
       "The beatiful Rainbow Falls in Kerikeri.",
@@ -458,7 +488,7 @@ document.addEventListener("DOMContentLoaded", function() {
     next.onclick = function() {nexts()};
 
     function backs() {
-      if (index < 66) {
+      if (index < 71) {
         index++;
         console.log(index);
         heading[0].innerHTML = headings[index];
