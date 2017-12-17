@@ -391,7 +391,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "November 8, 2017",
       "November 8, 2017",
       "November 4, 2017",
-      "Novemebr 4, 2017",
+      "November 4, 2017",
       "November 4, 2017",
       "November 4, 2017",
       "November 3, 2017",
