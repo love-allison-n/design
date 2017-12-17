@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var source = [
       "../../images/welli.jpg",
       "../../images/parlament.jpg",
-      "../../images/npisland.jpg",
+      "../../images/npIsland.jpg",
       "../../images/lonely.jpg",
       "../../images/jelly.jpg",
       "../../images/rockRivers.jpg",
@@ -520,7 +520,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "This is clearly the sign for the greatest street on Earth.",
       "The view from the Hobson Bay Walkway of East Auckland.",
       "This poor tree needs crutches to keep its branches of the ground.",
-      "It's me! Outide the Oakland Airport before my flight to Auckland."
+      "It's me! Outside the Oakland Airport before my flight to Auckland."
     ];
 
     heading[0].innerHTML = headings[0];
