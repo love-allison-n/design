@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
       tick23[0].style.right = "55px"; tick23[0].style.color = "#ffece2";
       tick24[0].style.right = "55px"; tick24[0].style.color = "#ffece2";
       tick3[0].style.right = "55px"; tick3[0].style.color = "#ffece2";
-      tick31[0].style.right = "55px"; tick31[0].style.color = "#000D13";
+      tick31[0].style.right = "55px"; tick31[0].style.color = "#ffece2";
       tick32[0].style.right = "55px"; tick32[0].style.color = "#000D13";
       tick33[0].style.right = "55px"; tick33[0].style.color = "#000D13";
       tick4[0].style.right = "55px"; tick4[0].style.color = "#000D13";
@@ -178,7 +178,15 @@ document.addEventListener("DOMContentLoaded", function() {
       tick3[0].style.right = "-65px"; tick3[0].style.opacity = "1"; tick3[0].style.color = "#000D13";
     }
 
-    postTwelve();
+    function postThirteen() {
+      article[1].innerHTML = "<h1>The Real Deal</h1><p>This week I got to see the North Island south of Auckland. I stopped in Hamilton, New Plymouth, and New Zealand’s capital, Wellington. I think these cities are very representative of what life is like in New Zealand.</p><p>Hamilton is built on either side of a river. New Plymouth sits between a huge volcano and the Tasman Sea. Wellington is adjacent to the Fitzroy Bay and the Cook Strait, which separates the North Island from the South Island. Though each of these cities is full of cute cafes and museums like a city should be, they also have easy access to the great outdoors.</p><p>I’ve spent about a quarter of the week lounging on beaches and soaking my feet in sand and waves. Along the west coast of New Zealand I’ve noticed that rocks and the tide interact in an odd way. As the tide goes out, water flows around larger rocks in the sand to get back to the sea, which carves a curving pathway in the sand. The more rocks there are on the beach, the more the paths weave around each other, merge together, and change directions, ultimately creating an intricate design of rivers. Add the beautiful shells, and it makes for stunning beach views.</p><p>I also found a beach covered in tiny, bright blue creatures that I later learned are like jellyfish. They don’t look like the moon jellyfish that I normally think of. Instead, they are shaped like flat ovals and have a sort of sail that sticks out of the water as they float along the surface. The wind pushes them along, and sometimes pushes them ashore. Whether it’s jellyfish, rocks, seashells, seals, or seagulls, I was never disappointed by what the beaches have to offer.</p><p>Another quarter of the week was spent hiking hills, big rocks, and forests. Though I haven’t been that lucky hiker in a million to get to see a wild kiwi, the forests are full of birds, lizards, and bunnies. I’m still hoping I’ll be in the right place at the right time for a kiwi sighting before my New Zealand adventure is finished.</p><p>The hikes aren’t just good for the surrounding flora and fauna. They often lead to spectacular views. In New Plymouth, I climbed a large rock on the coast. It was a tough climb, but at the top, I could look to my left and see Mount Taranaki and on my right I could see the island spotted Tasman Sea. In Hamilton, a hike up Mount Victoria right on the edge of town leads to 360 views of the city and the surrounding mountains and sea. Anywhere you go in New Zealand, there is always something to see.</p><p>Of course, I’ve also manages to make it to a few galleries and museums. These cities have artists and business people going about there lives, but in New Zealand nature and adventure are never far away.</p><p>Being able to see some local art, eat at a boutique café, and go rock climbing all in the same day is pretty amazing, and the locals know how to take advantage of it all. They can live and work within the modern convenience of a city, and can escape it on a weekly basis. Their kids get to learn to surf as a regular Friday activity in school. That is how most people in New Zealand live, and that is what makes New Zealand so unique and special.</p>";
+
+      reset();
+
+      tick31[0].style.right = "-65px"; tick31[0].style.opacity = "1"; tick31[0].style.color = "#000D13";
+    }
+
+    postThirteen();
 
     tick01[0].onmouseover = function() {header[0].innerHTML = "Feet on Solid Ground";};
     tick01[0].onmouseout = function() {header[0].innerHTML = "";};
@@ -216,5 +224,8 @@ document.addEventListener("DOMContentLoaded", function() {
     tick3[0].onmouseover = function() {header[0].innerHTML = "Perfection";};
     tick3[0].onmouseout = function() {header[0].innerHTML = "";};
     tick3[0].onclick = function() {postTwelve()};
+    tick31[0].onmouseover = function() {header[0].innerHTML = "The Real Deal";};
+    tick31[0].onmouseout = function() {header[0].innerHTML = "";};
+    tick31[0].onclick = function() {postThirteen()};
 
   });

@@ -31,6 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/welli.jpg",
+      "../../images/parlament.jpg",
+      "../../images/npisland.jpg",
+      "../../images/lonely.jpg",
+      "../../images/jelly.jpg",
+      "../../images/rockRivers.jpg",
+      "../../images/eyes.jpg",
+      "../../images/deku.jpg",
       "../../images/mermaid.jpg",
       "../../images/lookout.jpg",
       "../../images/stream.jpg",
@@ -105,6 +113,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "A view of Wellington",
+      "Parlament Building and Beehive",
+      "View of an Island",
+      "Mount Taranaki",
+      "Blue Jellyfish",
+      "Rock Rivers",
+      "Wall of Eyes",
+      "The 2000 year old",
       "The Mermaid Pools",
       "Coastal View",
       "A stream",
@@ -186,6 +202,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px",
       "333px",
       "333px",
+      "500px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
       "333px",
       "333px",
       "333px",
@@ -260,6 +284,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "500px",
       "500px",
       "500px",
+      "333px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
       "500px",
       "500px",
       "500px",
@@ -327,6 +359,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "December 12, 2017",
+      "December 12, 2017",
+      "December 11, 2017",
+      "December 11, 2017",
+      "December 11, 2017",
+      "December 11, 2017",
+      "December 10, 2017",
+      "December 10, 2017",
       "December 1, 2017",
       "December 1, 2017",
       "November 30, 2017",
@@ -401,6 +441,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "The view of Wellington from the top of Mount Victoria.",
+      "The Parlament Building and the Beehive building in Wellington.",
+      "A view of one of the islands along the New Plymouth Coast.",
+      "Mount Taranaki, or the Lonely Mountain as Bilbo knows it.",
+      "A bright blue jellyfish-like creature that washed up on the beach.",
+      "The water forms patterns in the sand as it flows around rocks toward the sea.",
+      "In New Plymouth, the walls have eyes.",
+      "Look Ana, I found the Great Deku tree. It's 2000 years old.",
       "The Mermaid Pools next to the ocean.",
       "This is the view from a hill along the Whangarei Coast.",
       "This stream is fed by the Whangarei Falls.",
@@ -488,7 +536,7 @@ document.addEventListener("DOMContentLoaded", function() {
     next.onclick = function() {nexts()};
 
     function backs() {
-      if (index < 71) {
+      if (index < 79) {
         index++;
         console.log(index);
         heading[0].innerHTML = headings[index];
