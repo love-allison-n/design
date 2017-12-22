@@ -31,6 +31,21 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/soundFalls.jpg",
+      "../../images/sealRock.jpg",
+      "../../images/mil.jpg",
+      "../../images/whiteWater.jpg",
+      "../../images/ice.jpg",
+      "../../images/tempFalls.jpg",
+      "../../images/rock.jpg",
+      "../../images/tiki.jpg",
+      "../../images/frame.jpg",
+      "../../images/hill.jpg",
+      "../../images/pet.jpg",
+      "../../images/creek.jpg",
+      "../../images/iceRiver.jpg",
+      "../../images/manuka.jpg",
+      "../../images/nelsonBeach.jpg",
       "../../images/welli.jpg",
       "../../images/parlament.jpg",
       "../../images/npIsland.jpg",
@@ -113,6 +128,21 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "Milford Sound Waterfall",
+      "Seal Rock",
+      "A view of Milford Sound",
+      "A River",
+      "Snow capped mountains",
+      "Temporary Waterfalls",
+      "The edge of the lake",
+      "A View of Queenstown",
+      "A View from Queenstown Hill",
+      "A View from Queenstown Hill",
+      "Pet Sheep",
+      "A Creek",
+      "Glacier River",
+      "Manuka Blossoms",
+      "View from Nelson Beach",
       "A view of Wellington",
       "Parlament Building and Beehive",
       "View of an Island",
@@ -195,6 +225,21 @@ document.addEventListener("DOMContentLoaded", function() {
       "Alli at the Oakland Airport"
     ];
     var height = [
+      "500px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "500px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
+      "333px",
       "333px",
       "333px",
       "333px",
@@ -277,6 +322,21 @@ document.addEventListener("DOMContentLoaded", function() {
       "500px"
     ];
     var width = [
+      "333px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "333px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "500px",
       "500px",
       "500px",
       "500px",
@@ -359,6 +419,21 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "December 19, 2017",
+      "December 19, 2017",
+      "December 19, 2017",
+      "December 19, 2017",
+      "December 19, 2017",
+      "December 19, 2017",
+      "December 20, 2017",
+      "December 20, 2017",
+      "December 18, 2017",
+      "December 18, 2017",
+      "December 16, 2017",
+      "December 16, 2017",
+      "December 16, 2017",
+      "December 16, 2017",
+      "December 14, 2017",
       "December 12, 2017",
       "December 12, 2017",
       "December 11, 2017",
@@ -441,6 +516,21 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "A water fall in the mountains of Milford Sound.",
+      "Teenage seals on Seal Rock in Milford Sound.",
+      "A view of Milford Sound toward the Tasman Sea.",
+      "A river through the mountains beteewn Queenstown and Milford Sound",
+      "Snow capped mountains behind some waterfalls.",
+      "Some temporary waterfalls along the drive to Milford Sound.",
+      "A rock along the edge of the lake in Queenstown.",
+      "The View from the Tiki Trail lookout.",
+      "A spectacular view of the lake and mountains from Queenstown Hill.",
+      "A spectacular view of the lake and mountains from Queenstown Hill.",
+      "Someone's pet sheep in the middle of Franz Josef the town.",
+      "A creek near Franz Josef the town.",
+      "An icey river coming off of the Franz Josef Glacier.",
+      "The manuka blossoms that are responsible for New Zealand's manuka honey.",
+      "The view from a beach in Nelson around sunset.",
       "The view of Wellington from the top of Mount Victoria.",
       "The Parlament Building and the Beehive building in Wellington.",
       "A view of one of the islands along the New Plymouth Coast.",
@@ -536,7 +626,7 @@ document.addEventListener("DOMContentLoaded", function() {
     next.onclick = function() {nexts()};
 
     function backs() {
-      if (index < 79) {
+      if (index < 94) {
         index++;
         console.log(index);
         heading[0].innerHTML = headings[index];

@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
       tick24[0].style.right = "55px"; tick24[0].style.color = "#ffece2";
       tick3[0].style.right = "55px"; tick3[0].style.color = "#ffece2";
       tick31[0].style.right = "55px"; tick31[0].style.color = "#ffece2";
-      tick32[0].style.right = "55px"; tick32[0].style.color = "#000D13";
+      tick32[0].style.right = "55px"; tick32[0].style.color = "#ffece2";
       tick33[0].style.right = "55px"; tick33[0].style.color = "#000D13";
       tick4[0].style.right = "55px"; tick4[0].style.color = "#000D13";
       tick41[0].style.right = "55px"; tick41[0].style.color = "#000D13";
@@ -186,7 +186,15 @@ document.addEventListener("DOMContentLoaded", function() {
       tick31[0].style.right = "-65px"; tick31[0].style.opacity = "1"; tick31[0].style.color = "#000D13";
     }
 
-    postThirteen();
+    function postFourteen() {
+      article[1].innerHTML = "<h1>The Center of it All</h1><p>During the start of my travels, people I met along the way continued to tell me that the South Island is the spectacular half of New Zealand. I wouldn’t say one island is better than the other, but I have had a wonderful time site seeing in the South Island this week.</p><p>While the North Island seems to be made up mostly from volcanic activity, tectonic plate movement and glaciers have formed the mountain ranges, valleys, and lakes of the South Island. Fortunately, a big chunk of the South Island’s landmass is protected as National Parks. A lot of the land is untouched and undeveloped.</p><p>My first stop in the South Island was Nelson, where I visited the Center of New Zealand. I don’t know how accurately the spot was determined, but it is marked at the top of a hill. From there, I could see the Cook Straight, the Abel Tasman National Park, and the towns and wineries between the mountains.</p><p>The towns are home to lots of museums and galleries including, the World of Wearable Art Museum. It was great to see some creative and dramatic ideas for costumes and clothing. I also went to a history museum and learned a little about what happened when Europeans arrived in the South Island. They brought many mammals and plants from home. It’s strange to me that they thought such a beautiful place should be more like Britain. Though Europeans changed some of New Zealand’s environment, they also built up national and international industries.</p><p>The valleys in the South Island are ideal for growing crops. This week I treated myself to some great New Zealand made wine, and some delicious New Zealand grown fruits. New Zealand is pretty proud of their fish and chips, but as far as I’m concerned, the wine and fruit is the closest thing to unique New Zealand cuisine.</p><p>I also visited the Franz Josef Glacier and Queenstown this week. The mountains in these regions are taller than I’ve ever seen. The combination of the mountains, lakes and rivers make for an incredibly dynamic atmosphere. Queenstown is considered the most scenic area in New Zealand, and is the most expensive city to live in, even beating Auckland. It’s also very touristy and has lots of adventure activities. Queenstown is particularly famous for bungee jumping.</p><p>On a tour from Queenstown to Milford sound I got to really understand the beauty of the South Island. As we drove through valleys, along rivers, and next to Mountains, I got lots of great pictures. A little morning rain provided hundreds of temporary waterfalls to spring up all over, striping the mountains with lacey strings of white water. In the afternoon, the sun came out for a beautiful cruise on Milford sound. I saw seals, wild Kea birds, and more snow-covered mountains in the distance.</p><p>This week I got to see what people keep talking about and it certainly lived up to expectations.  I took hundreds of pictures, but I won’t need them to remember all the beautiful things I saw.</p>";
+
+      reset();
+
+      tick32[0].style.right = "-65px"; tick32[0].style.opacity = "1"; tick32[0].style.color = "#000D13";
+    }
+
+    postFourteen();
 
     tick01[0].onmouseover = function() {header[0].innerHTML = "Feet on Solid Ground";};
     tick01[0].onmouseout = function() {header[0].innerHTML = "";};
@@ -227,5 +235,8 @@ document.addEventListener("DOMContentLoaded", function() {
     tick31[0].onmouseover = function() {header[0].innerHTML = "The Real Deal";};
     tick31[0].onmouseout = function() {header[0].innerHTML = "";};
     tick31[0].onclick = function() {postThirteen()};
+    tick32[0].onmouseover = function() {header[0].innerHTML = "The Center of it All";};
+    tick32[0].onmouseout = function() {header[0].innerHTML = "";};
+    tick32[0].onclick = function() {postFourteen()};
 
   });
