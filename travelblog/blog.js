@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", function() {
       tick3[0].style.right = "55px"; tick3[0].style.color = "#ffece2";
       tick31[0].style.right = "55px"; tick31[0].style.color = "#ffece2";
       tick32[0].style.right = "55px"; tick32[0].style.color = "#ffece2";
-      tick33[0].style.right = "55px"; tick33[0].style.color = "#000D13";
-      tick4[0].style.right = "55px"; tick4[0].style.color = "#000D13";
+      tick33[0].style.right = "55px"; tick33[0].style.color = "#ffece2";
+      tick4[0].style.right = "55px"; tick4[0].style.color = "#ffece2";
       tick41[0].style.right = "55px"; tick41[0].style.color = "#000D13";
       tick42[0].style.right = "55px"; tick42[0].style.color = "#000D13";
       tick43[0].style.right = "55px"; tick43[0].style.color = "#000D13";
@@ -194,7 +194,23 @@ document.addEventListener("DOMContentLoaded", function() {
       tick32[0].style.right = "-65px"; tick32[0].style.opacity = "1"; tick32[0].style.color = "#000D13";
     }
 
-    postFourteen();
+    function postFifteen() {
+      article[1].innerHTML = "<h1>Christmas in Christchurch</h1><p>It seems appropriate to have spent Christmas in Christchurch, although it wasn’t a conventional Christmas. The sun was shining, and I spent it with brand new friends.</p><p>After Queenstown, I visited Nelson for some more beach time. I went to the Nelson Farmers Market with a great group of girls I had met where I was staying. We shared a box of beautiful plums and apricots from local farms and went for a drive along the Peninsula. In Nelson, I also finally got the chance to learn to surf. I expected it to be difficult, but it was harder than I thought. It takes a lot of energy just to wade through the water far enough to catch a wave. Then you have to have enough strength left to push yourself up (plus the weight of a wet wetsuit) and place yourself on the board well enough to balance. I had a bad habit of placing my feet too far back on the board so the board would shoot out in front of me. I almost had the hang of it at the end of the lesson, so I will have to keep practicing back in California.</p><p>On Christmas Eve, I took a bus to Christchurch. The city was very quiet on Christmas Day. In the morning, people came out to the Cardboard Cathedral for mass. The Cardboard Cathedral is a temporary building being used while the Cathedral of the Blessed Sacrament and Christchurch Cathedral are being repaired after the 6.3-magnitude earthquake in 2011. Walking past the old Cathedrals, I could see where chunks of the buildings were missing and the interiors of the buildings were exposed. Posted images of the original Cathedrals showed a stark difference and the extent of the damage that was done during the earthquake.</p><p>Christchurch has no tall buildings, and many of the historic buildings are fenced off and condemned. People I talked to thought this made the city seem sad, but I think the left over wreck is a beautiful reminder of a dramatic event that is a part of the city’s recent history. Anyway, Christchurch is being rebuilt and renovated. Soon the physical evidence of the earthquake will be gone, and it will only be something people read about on plaques.</p><p>On Christmas afternoon, I went for a walk with some other solo travelers. We went to the park on the edge of downtown and got to see how Kiwis spend their warm Christmases. Families were picnicking, and kids were playing with their new toys in the grass. I ended the day with Turkish takeout and a red wine that was made in the area.</p><p>My Christmas started 21 hours before Christmas in California, so I got to spend the 26th of December talking with my family and friends at home on their Christmas Day. It was great to see everyone together and catch up with everyone. And now I am very excited to see my big sister for New Years.</p>";
+
+      reset();
+
+      tick33[0].style.right = "-65px"; tick33[0].style.opacity = "1"; tick33[0].style.color = "#000D13";
+    }
+
+    function postSixteen() {
+      article[1].innerHTML = "<h1>The First New Year of the Year</h1><p>I met up with Ana on December 28th at the Auckland Airport. It has been really good to have some family around this week. We planned a packed week and we got to do all the important things that I’ve been waiting for.</p><p>We started with wine tasting on Waiheke Island, where the locally made wine is accompanied by views of vineyards, rolling hills, and Auckland’s skyline off in the distance. Ana and I liked all of the wines at one of the vineyards so much that we went back at the end of the trip in a rainstorm to get some souvenir bottles.</p><p>We were excited for a fun New Years Eve at a Masquerade Ball. We were served a delicious dinner, but were disappointed with the entertainment. There was a magician with the occasional card trick or assistant in a box, and a couple musicians. Though it wasn’t quite as fancy of a party as we had imagined, I think it was the fanciest event we could have found in New Zealand. Sky tower had a short but very colorful fireworks display to welcome in the first stroke of midnight of the New Year.</p><p>On New Years Day, Ana and I left Auckland to see some of New Zealand’s iconic treasures. We went to the Waitomo glowworm caves and learned a little about the odd creatures. They catch mosquitoes and other bugs in strings of saliva, luring them in with their glowing blue light. I was expecting faint lights that we would have to strain to see, but the worms glow brighter than stars (though they are at an unfair advantage being only feet away). The caves’ stalactites and stalagmites were beautiful with the lights on, but with the lights off, the cave had it’s own underground night sky. We boated slowly through the cave and got to appreciate the intensity of its inhabitants.</p><p>After the caves we made it to Hobbiton. We got to see 44 hobbit holes and the beautiful views of the shire. Ana reenacted Bilbo running out of the shire for an adventure for our tour group. We made it to the end of the tour just as it started to rain, and we got to have a drink at the Green Dragon. It was pretty cool to experience some of Middle Earth as it appears in the Hobbit.</p><p>Then we drove up the Coromandel Peninsula through forests and mountains. Once we got to the coast, we went sea Kayaking to Cathedral Cove, swam on the beach, and I took a natural shower. The area is also known for natural heat in the ground, so we spent a relaxing morning in a Natural Hot Spring resort. We also went for a less relaxing trip to Hot Water Beach. We let our feet sink into the hot sand by the water, but weren’t willing to brave the pouring rain long enough to dig a whole among all the other beach visitors.</p><p>We managed to a fit a lot into the week that Ana spent with me in New Zealand. Seeing Ana got me excited to continue on to new places and eventually come home again.</p>";
+
+      reset();
+
+      tick4[0].style.right = "-65px"; tick4[0].style.opacity = "1"; tick4[0].style.color = "#000D13";
+    }
+
+    postSixteen();
 
     tick01[0].onmouseover = function() {header[0].innerHTML = "Feet on Solid Ground";};
     tick01[0].onmouseout = function() {header[0].innerHTML = "";};
@@ -238,5 +254,11 @@ document.addEventListener("DOMContentLoaded", function() {
     tick32[0].onmouseover = function() {header[0].innerHTML = "The Center of it All";};
     tick32[0].onmouseout = function() {header[0].innerHTML = "";};
     tick32[0].onclick = function() {postFourteen()};
+    tick33[0].onmouseover = function() {header[0].innerHTML = "Christmas in Christchurch";};
+    tick33[0].onmouseout = function() {header[0].innerHTML = "";};
+    tick33[0].onclick = function() {postFifteen()};
+    tick4[0].onmouseover = function() {header[0].innerHTML = "The First New Year of the Year";};
+    tick4[0].onmouseout = function() {header[0].innerHTML = "";};
+    tick4[0].onclick = function() {postSixteen()};
 
   });

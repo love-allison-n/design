@@ -31,6 +31,15 @@ document.addEventListener("DOMContentLoaded", function() {
     var index = 0;
 
     var source = [
+      "../../images/kayaking.jpg",
+      "../../images/haheiBeach.jpg",
+      "../../images/greenDragon.jpg",
+      "../../images/partTree.jpg",
+      "../../images/bagend.jpg",
+      "../../images/ana.jpg",
+      "../../images/farthings.jpg",
+      "../../images/cone.jpg",
+      "../../images/cathedral.jpg",
       "../../images/soundFalls.jpg",
       "../../images/sealRock.jpg",
       "../../images/mil.jpg",
@@ -128,6 +137,15 @@ document.addEventListener("DOMContentLoaded", function() {
       "../../images/oa.jpg"
     ];
     var alternate = [
+      "Kayaking in Cathedral Cove",
+      "Hahei Beach",
+      "The Green Dragon",
+      "The Party Tree",
+      "Bagend",
+      "Ana in the Shire",
+      "A Shire sign",
+      "Artsy Flower Cone",
+      "Cathedral of the Blesses Sacrament",
       "Milford Sound Waterfall",
       "Seal Rock",
       "A view of Milford Sound",
@@ -225,6 +243,15 @@ document.addEventListener("DOMContentLoaded", function() {
       "Alli at the Oakland Airport"
     ];
     var height = [
+      "375px",
+      "333px",
+      "333px",
+      "500px",
+      "333px",
+      "333px",
+      "500px",
+      "500px",
+      "333px",
       "500px",
       "333px",
       "333px",
@@ -322,6 +349,15 @@ document.addEventListener("DOMContentLoaded", function() {
       "500px"
     ];
     var width = [
+      "500px",
+      "500px",
+      "500px",
+      "500px",
+      "333px",
+      "500px",
+      "333px",
+      "333px",
+      "500px",
       "333px",
       "500px",
       "500px",
@@ -419,6 +455,15 @@ document.addEventListener("DOMContentLoaded", function() {
       "333px"
     ];
     var headings = [
+      "January 3, 2018",
+      "January 3, 2018",
+      "January 2, 2018",
+      "January 2, 2018",
+      "January 2, 2018",
+      "January 2, 2018",
+      "January 2, 2018",
+      "December 26, 2017",
+      "December 25, 2017",
       "December 19, 2017",
       "December 19, 2017",
       "December 19, 2017",
@@ -516,6 +561,15 @@ document.addEventListener("DOMContentLoaded", function() {
       "September 12, 2017"
     ];
     var descriptions = [
+      "Ana and I, kayaking on in and around Cathedral Cove.",
+      "While on a hike this is the view of Hahei Beach from the South.",
+      "On the way down the hill from Bagend, this is the view of the Green Dragon Inn.",
+      "This is the large tree under which Bilbo has his 111th birthday party.",
+      "Bagend seemed like the perfect little place to relax and read a book.",
+      "Ana sitting on a bench bay an orchard in the Shire.",
+      "When Ana and I walked into the Shire, this sign pointed out East and West Farthing.",
+      "An example of the street art that is all over Christchurch.",
+      "The earthquake damaged Cathedral of the Blessed Sacrament.",
       "A water fall in the mountains of Milford Sound.",
       "Teenage seals on Seal Rock in Milford Sound.",
       "A view of Milford Sound toward the Tasman Sea.",
