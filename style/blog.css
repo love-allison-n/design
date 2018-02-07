@@ -1,0 +1,187 @@
+body {
+  background-image: url(../images/splashbg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 40px;
+}
+
+nav {
+  position: fixed;
+  top: calc(50% - 125px);
+  right: calc(30% - 225px);
+  height: 250px;
+  width: 550px;
+}
+
+img {
+  position: absolute;
+  height: 250px;
+  width: 508px;
+  top: 0px;
+  left: 21px;
+}
+
+a {
+  position: absolute;
+  text-decoration: none;
+  color: #0d1f2c;
+  opacity: .8;
+  font-size: 40px;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a:visited {
+  opacity: .5;
+}
+
+a:nth-child(2){
+  top: 60px;
+  left: 0px;
+}
+
+a:nth-child(3){
+  top: 60px;
+  right: 0px;
+}
+
+a:nth-child(4){
+  bottom: 75px;
+  left: 0px;
+}
+
+a:nth-child(5){
+  bottom: 75px;
+  right: 0px;
+}
+
+@media only screen and (max-width: 1150px) {
+  nav {
+    top: calc(50% - 62px);
+    right: calc(30% - 132px);
+    height: 125px;
+    width: 275px;
+  }
+
+  img {
+    height: 125px;
+    width: 254px;
+    top: 0px;
+    left: 10px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  a:nth-child(2){
+    top: 30px;
+  }
+
+  a:nth-child(3){
+    top: 30px;
+  }
+
+  a:nth-child(4){
+    bottom: 37px;
+  }
+
+  a:nth-child(5){
+    bottom: 37px;
+  }
+}
+
+
+
+@media only screen and (orientation: portrait) {
+  nav {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    height: 1000px;
+    width: 550px;
+  }
+
+  img {
+    height: 250px;
+    width: 508px;
+    top: 0px;
+    left: 21px;
+  }
+
+  a {
+    font-size: 80px;
+  }
+
+  a:nth-child(2){
+    top: auto;
+    bottom: 450px;
+    left: auto;
+    right: 25px;
+  }
+
+  a:nth-child(3){
+    top: auto;
+    bottom: 300px;
+    right: 25px;
+  }
+
+  a:nth-child(4){
+    bottom: 150px;
+    left: auto;
+    right: 25px;
+  }
+
+  a:nth-child(5){
+    bottom: 0px;
+    right: 25px;
+  }
+}
+
+@media only screen and (orientation: portrait) and (max-height: 1350px) {
+  nav {
+    right: 75px;
+    height: 375px;
+    width: 206px;
+  }
+
+  img {
+    height: 94px;
+    width: 190px;
+    top: 0px;
+    left: 7px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  a:nth-child(2){
+    top: auto;
+    bottom: 169px;
+    left: auto;
+    right: 9px;
+  }
+
+  a:nth-child(3){
+    top: auto;
+    bottom: 112px;
+    right: 9px;
+  }
+
+  a:nth-child(4){
+    bottom: 56px;
+    left: auto;
+    right: 9px;
+  }
+
+  a:nth-child(5){
+    bottom: 0px;
+    right: 9px;
+  }
+}

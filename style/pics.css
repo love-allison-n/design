@@ -1,0 +1,346 @@
+body {
+  background-color: #fef5f2;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 15px;
+  color: #0d1f2c;
+}
+
+nav {
+  background-color: #f4e3de;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 5;
+}
+
+#left {
+  position: absolute;
+  height: 3px;
+  top: 59px;
+  left: -10px;
+  width: calc(100% - 289px);
+}
+
+#beat {
+  position: absolute;
+  height: 75px;
+  width: 60px;
+  top: 25px;
+  right: 273px;
+}
+
+#right {
+  position: absolute;
+  height: 3px;
+  top: 59px;
+  right: 0px;
+  width: 280px;
+}
+
+ul {
+  position: absolute;
+  list-style: none;
+  height: 25px;
+  right: 380px;
+  top: 5px;
+  width: 250px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#menu {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  opacity: 1;
+}
+
+
+/*
+  h2 {
+    font-size: 70px;
+    left: 55px;
+    top: 120px;
+  }
+
+  #bg {
+    z-index: 2;
+    top: 300px;
+    width: 100%;
+    height: calc(100% - 300px);
+    opacity: 0;
+  }
+
+  #dates {
+    z-index: 3;
+    top: 300px;
+    width: 100%;
+    opacity: 0;
+  }
+
+  #line {
+    left: 65px;
+    top: 30px;
+    bottom: 30px;
+    height: calc(100% - 60px);
+    width: 7px;
+  }
+
+  div img {
+    left: 55px;
+  }
+
+  div aside {
+    height: 20px;
+    font-size: 30px;
+    margin-top: -10px;
+    left: 150px;
+  }
+
+  h3 {
+    font-size: 50px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    top: 40px;
+  }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+  position: absolute;
+  left: calc(100% - 230px);
+  top: 5px;
+}
+
+#dates {
+  background-color: #f4e3de;
+  position: fixed;
+  top: 60px;
+  right: 0px;
+  bottom: 0px;
+  width: 300px;
+  height: calc(100% - 60px);
+}
+
+#up {
+  position: absolute;
+  left: 70px;
+  top: 15%;
+}
+
+h3 {
+  position: absolute;
+  left: 70px;
+  top: 30px;
+  top: 35%;
+}
+
+p {
+  position: absolute;
+  left: 70px;
+  right: 70px;
+  top: 45%;
+}
+
+#down {
+  position: absolute;
+  left: 70px;
+  bottom: 15%;
+}
+
+#pics {
+  z-index: 4;
+  background-image: url(../images/skyTower.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  bottom: 0px;
+  width: calc(100% - 300px);
+  height: calc(100% - 60px);
+}
+
+#nu {
+  opacity: 0;
+  position: fixed;
+  top: 60px;
+  right: 0px;
+  bottom: 0px;
+  width: 300px;
+  background-color: rgba(13, 31, 44, 0.9);
+}
+
+#nu ul {
+  position: absolute;
+  list-style: none;
+  height: calc(100% - 60px);
+  right: 0px;
+  top: 60px;
+  width: 300px;
+}
+
+#nu li {
+  opacity: .7;
+  display: block;
+  width: 300px;
+  text-align: center;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #fef5f2;
+  font-size: 25px;
+}
+
+#nu li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (orientation: portrait) and (min-width: 900px) {
+
+  nav {
+    height: 300px;
+  }
+
+  #left {
+    height: 5px;
+    top: 299px;
+    width: calc(100% - 204px);
+  }
+
+  #beat {
+    height: 125px;
+    width: 100px;
+    top: 243px;
+    right: 170px;
+  }
+
+  #right {
+    height: 5px;
+    top: 299px;
+    width: 181px;
+  }
+
+  ul {
+    height: 70px;
+    right: auto;
+    left: 55px;
+    top: 50px;
+    width: 700px;
+  }
+
+  a img {
+    height: 70px;
+    width: 70px;
+  }
+
+  li {
+    margin-left: -40px;
+    margin-right: 130px;
+
+  }
+
+  #menu {
+    top: 190px;
+    right: 55px;
+    height: 60px;
+    width: 100px;
+    opacity: 1;
+  }
+
+  h2 {
+    font-size: 70px;
+    left: 55px;
+    top: 120px;
+  }
+
+  #dates {
+    z-index: 3;
+    top: 300px;
+    width: 100%;
+    height: 400px;
+  }
+
+  #pics {
+    top: 700px;
+    width: 100%;
+    height: calc(100% - 700px);
+  }
+
+  h3 {
+    font-size: 50px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    top: 40px;
+  }
+
+  p {
+    font-size: 35px;
+    left: 240px;
+    right: 240px;
+    top: auto;
+    bottom: 50px;
+  }
+
+  #up {
+    transform: rotate(-90deg);
+    left: 80px;
+    top: auto;
+    bottom: 70px;
+    height: 120px;
+    width: 90px;
+  }
+
+  #down {
+    transform: rotate(-90deg);
+    left: auto;
+    right: 80px;
+    bottom: 70px;
+    height: 120px;
+    width: 90px;
+  }
+
+  #nu {
+    top: 300px;
+    width: 100%;
+  }
+
+  #nu ul {
+    height: calc(100% - 300px);
+    top: 300px;
+    width: 100%;
+  }
+
+  #nu li {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: -80px;
+    font-size: 75px;
+  }
+
+}

@@ -1,0 +1,273 @@
+body {
+  background-color: #f4e3de;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 15px;
+  color: #0d1f2c;
+}
+
+nav {
+  background-color: #f4e3de;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 5;
+}
+
+#left {
+  position: absolute;
+  height: 3px;
+  top: 59px;
+  left: -10px;
+  width: calc(100% - 289px);
+}
+
+#beat {
+  position: absolute;
+  height: 75px;
+  width: 60px;
+  top: 25px;
+  right: 273px;
+}
+
+#right {
+  position: absolute;
+  height: 3px;
+  top: 59px;
+  right: 0px;
+  width: 280px;
+}
+
+ul {
+  position: absolute;
+  list-style: none;
+  height: 25px;
+  right: 380px;
+  top: 5px;
+  width: 250px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 0;
+}
+
+
+h2 {
+  position: absolute;
+  left: calc(100% - 230px);
+  top: 5px;
+}
+
+#list {
+  position: absolute;
+  top: 60px;
+  right: 350px;
+}
+
+section {
+  background-color: rgba(13, 31, 44, 0.9);
+  display: inline-block;
+  height: 140px;
+  width: 210px;
+  margin-left: calc((100% - 150px)/2);
+  margin-right: calc((100% - 150px)/2);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.checked {
+  background-image: url(../images/check.png);
+  background-size: 130px 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h4 {
+  color: #fef5f2;
+  font-size: 19px;
+  font-weight: normal;
+  height: 25px;
+  width: 25px;
+  border: solid #fef5f2 3px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+p {
+  position: absolute;
+  color: #fef5f2;
+  font-size: 20px;
+  text-align: center;
+  width: 190px;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+#dates {
+  position: fixed;
+  top: 60px;
+  right: 0px;
+  bottom: 0px;
+  width: 300px;
+}
+
+h3 {
+  position: absolute;
+  left: 70px;
+  top: 30%;
+  font-size: 15px;
+}
+
+#desc {
+  width: 170px;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  color: #0d1f2c;
+  left: 70px;
+  top: 40%;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+
+
+@media only screen and (min-width: 900px) {
+  section {
+    margin-left: calc((100% - 400px)/5);
+    margin-right: calc((100% - 400px)/5);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section {
+    margin-left: calc((100% - 600px)/7);
+    margin-right: calc((100% - 600px)/7);
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-width: 900px) {
+
+  nav {
+    height: 300px;
+  }
+
+  #left {
+    height: 5px;
+    top: 299px;
+    width: calc(100% - 204px);
+  }
+
+  #beat {
+    height: 125px;
+    width: 100px;
+    top: 243px;
+    right: 170px;
+  }
+
+  #right {
+    height: 5px;
+    top: 299px;
+    width: 181px;
+  }
+
+  ul {
+    height: 70px;
+    right: auto;
+    left: 55px;
+    top: 50px;
+    width: 700px;
+  }
+
+  a img {
+    height: 70px;
+    width: 70px;
+  }
+
+  li {
+    margin-left: -40px;
+    margin-right: 130px;
+
+  }
+
+  h2 {
+    font-size: 70px;
+    left: 55px;
+    top: 120px;
+  }
+
+
+
+  #list {
+    top: 700px;
+    right: 0px;
+  }
+
+  section {
+    height: 233px;
+    width: 350px;
+    margin-left: calc((100% - 705px)/4);
+    margin-right: calc((100% - 705px)/4);
+  }
+
+  .checked {
+    background-size: 200px 200px;
+  }
+
+  h4 {
+    font-size: 19px;
+    height: 40px;
+    width: 40px;
+    border: solid #fef5f2 4px;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 35px;
+    text-align: center;
+    width: 300px;
+    margin-left: 25px;
+    margin-top: -10px;
+  }
+
+  #dates {
+    background-color: #f4e3de;
+    z-index: 3;
+    top: 300px;
+    width: 100%;
+    height: 400px;
+  }
+
+  h3 {
+    font-size: 45px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+  }
+
+  #desc {
+    width: auto;
+    font-size: 30px;
+    left: 140px;
+    right: 140px;
+    top: auto;
+    bottom: 50px;
+  }
+}

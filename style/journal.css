@@ -1,0 +1,420 @@
+body {
+  background: linear-gradient(#f4e3de, #fef5f2);
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 15px;
+  color: #0d1f2c;
+}
+
+nav {
+  background-color: #f4e3de;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 5;
+}
+
+#left {
+  position: absolute;
+  height: 3px;
+  top: 59px;
+  left: -10px;
+  width: calc(100% - 289px);
+}
+
+#beat {
+  position: absolute;
+  height: 75px;
+  width: 60px;
+  top: 25px;
+  right: 273px;
+}
+
+#right {
+  position: absolute;
+  height: 3px;
+  top: 59px;
+  right: 0px;
+  width: 280px;
+}
+
+ul {
+  position: absolute;
+  list-style: none;
+  height: 25px;
+  right: 380px;
+  top: 5px;
+  width: 250px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 0;
+}
+
+
+h2 {
+  position: absolute;
+  left: calc(100% - 230px);
+  top: 5px;
+}
+
+#bg {
+  z-index: -5;
+  background-image: url(../images/skyTower.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: fixed;
+  top: 60px;
+  right: 0px;
+  bottom: 0px;
+  width: 300px;
+  height: calc(100% - 60px);
+}
+
+#dates {
+  position: fixed;
+  top: 60px;
+  right: 0px;
+  bottom: 0px;
+  width: 300px;
+  background-color: rgba(13, 31, 44, 0.7);
+}
+
+#line {
+  position: absolute;
+  left: -2px;
+  top: 60px;
+  bottom: 0px;
+  height: calc(100% - 60px);
+}
+
+div img {
+  position: absolute;
+  left: -10px;
+}
+
+div aside {
+  position: absolute;
+  height: 10px;
+  color: #fef5f2;
+  font-size: 15px;
+  margin-top: -7px;
+  left: 80px;
+  opacity: .75;
+  cursor: pointer;
+}
+
+div aside:hover {
+  opacity: 1;
+}
+
+h3 {
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  color: #fef5f2;
+
+}
+
+.tick01 {
+  bottom: calc(50px + (100% - 170px)*0/21);
+}
+.tick02 {
+  bottom: calc(50px + (100% - 170px)*1/21);
+}
+.tick1 {
+  bottom: calc(50px + (100% - 170px)*2/21);
+}
+.tick11 {
+  bottom: calc(50px + (100% - 170px)*3/21);
+}
+.tick12 {
+  bottom: calc(50px + (100% - 170px)*4/21);
+}
+.tick13 {
+  bottom: calc(50px + (100% - 170px)*5/21);
+}
+.tick2 {
+  bottom: calc(50px + (100% - 170px)*6/21);
+}
+.tick21 {
+  bottom: calc(50px + (100% - 170px)*7/21);
+}
+.tick22 {
+  bottom: calc(50px + (100% - 170px)*8/21);
+}
+.tick23 {
+  bottom: calc(50px + (100% - 170px)*9/21);
+}
+.tick24 {
+  bottom: calc(50px + (100% - 170px)*10/21);
+}
+.tick3 {
+  bottom: calc(50px + (100% - 170px)*11/21);
+}
+.tick31 {
+  bottom: calc(50px + (100% - 170px)*12/21);
+}
+.tick32 {
+  bottom: calc(50px + (100% - 170px)*13/21);
+}
+.tick33 {
+  bottom: calc(50px + (100% - 170px)*14/21);
+}
+.tick4 {
+  bottom: calc(50px + (100% - 170px)*15/21);
+}
+.tick42 {
+  bottom: calc(50px + (100% - 170px)*16/21);
+}
+.tick43 {
+  bottom: calc(50px + (100% - 170px)*17/21);
+}
+.tick44 {
+  bottom: calc(50px + (100% - 170px)*18/21);
+}
+.tick5 {
+  bottom: calc(50px + (100% - 170px)*19/21);
+}
+.tick51 {
+  bottom: calc(50px + (100% - 170px)*20/21);
+}
+.tick52 {
+  bottom: calc(50px + (100% - 170px)*21/21);
+}
+
+article {
+  margin-top: 150px;
+  width: calc(100% - 300px);
+  margin-bottom: 100px;
+}
+
+h1 {
+  margin: 50px;
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    margin: 100px;
+  }
+
+  p {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  h1 {
+    font-size: 35px;
+    margin: 120px;
+  }
+
+  p {
+    font-size: 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+
+@media only screen and (orientation: portrait) and (min-width: 900px) {
+
+  nav {
+    height: 300px;
+  }
+
+  #left {
+    height: 5px;
+    top: 299px;
+    width: calc(100% - 204px);
+  }
+
+  #beat {
+    height: 125px;
+    width: 100px;
+    top: 243px;
+    right: 170px;
+  }
+
+  #right {
+    height: 5px;
+    top: 299px;
+    width: 181px;
+  }
+
+  ul {
+    height: 70px;
+    right: auto;
+    left: 55px;
+    top: 50px;
+    width: 700px;
+  }
+
+  a img {
+    height: 70px;
+    width: 70px;
+  }
+
+  li {
+    margin-left: -40px;
+    margin-right: 130px;
+
+  }
+
+  #menu {
+    position: absolute;
+    top: 190px;
+    right: 55px;
+    opacity: 1;
+  }
+
+
+  h2 {
+    font-size: 70px;
+    left: 55px;
+    top: 120px;
+  }
+
+  #bg {
+    z-index: 2;
+    top: 300px;
+    width: 100%;
+    height: calc(100% - 300px);
+    opacity: 0;
+  }
+
+  #dates {
+    z-index: 3;
+    top: 300px;
+    width: 100%;
+    opacity: 0;
+  }
+
+  #line {
+    left: 65px;
+    top: 30px;
+    bottom: 30px;
+    height: calc(100% - 60px);
+    width: 7px;
+  }
+
+  div img {
+    left: 55px;
+  }
+
+  div aside {
+    height: 20px;
+    font-size: 30px;
+    margin-top: -10px;
+    left: 150px;
+  }
+
+  h3 {
+    font-size: 50px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    top: 40px;
+  }
+
+  .tick01 {
+    bottom: calc(150px + (100% - 350px)*0/21);
+  }
+  .tick02 {
+    bottom: calc(150px + (100% - 350px)*1/21);
+  }
+  .tick1 {
+    bottom: calc(150px + (100% - 350px)*2/21);
+  }
+  .tick11 {
+    bottom: calc(150px + (100% - 350px)*3/21);
+  }
+  .tick12 {
+    bottom: calc(150px + (100% - 350px)*4/21);
+  }
+  .tick13 {
+    bottom: calc(150px + (100% - 350px)*5/21);
+  }
+  .tick2 {
+    bottom: calc(150px + (100% - 350px)*6/21);
+  }
+  .tick21 {
+    bottom: calc(150px + (100% - 350px)*7/21);
+  }
+  .tick22 {
+    bottom: calc(150px + (100% - 350px)*8/21);
+  }
+  .tick23 {
+    bottom: calc(150px + (100% - 350px)*9/21);
+  }
+  .tick24 {
+    bottom: calc(150px + (100% - 350px)*10/21);
+  }
+  .tick3 {
+    bottom: calc(150px + (100% - 350px)*11/21);
+  }
+  .tick31 {
+    bottom: calc(150px + (100% - 350px)*12/21);
+  }
+  .tick32 {
+    bottom: calc(150px + (100% - 350px)*13/21);
+  }
+  .tick33 {
+    bottom: calc(150px + (100% - 350px)*14/21);
+  }
+  .tick4 {
+    bottom: calc(150px + (100% - 350px)*15/21);
+  }
+  .tick42 {
+    bottom: calc(150px + (100% - 350px)*16/21);
+  }
+  .tick43 {
+    bottom: calc(150px + (100% - 350px)*17/21);
+  }
+  .tick44 {
+    bottom: calc(150px + (100% - 350px)*18/21);
+  }
+  .tick5 {
+    bottom: calc(150px + (100% - 350px)*19/21);
+  }
+  .tick51 {
+    bottom: calc(150px + (100% - 350px)*20/21);
+  }
+  .tick52 {
+    bottom: calc(150px + (100% - 350px)*21/21);
+  }
+
+  article {
+    margin-top: 500px;
+    width: 100%;
+  }
+
+  h1 {
+    margin: 55px;
+  }
+
+  p {
+    font-size: 10px;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+}
