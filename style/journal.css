@@ -420,16 +420,3 @@ p {
     margin-right: 55px;
   }
 }
-
-@media only screen and (max-width: 330px) {
-  h1 {
-    font-size: 40px;
-    margin: 120px;
-  }
-
-  p {
-    font-size: 50px;
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-}
