@@ -237,7 +237,6 @@ p {
 
 
 @media only screen and (orientation: portrait) and (min-width: 900px) {
-
   nav {
     height: 300px;
   }
