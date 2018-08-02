@@ -107,11 +107,11 @@ div {
 	text-align: center;
 }
 
-img:hover {
+img:hover, img:active {
   opacity: 0.3;
 }
 
-div:hover {
+div:hover, div:active {
   opacity: 1;
 }
 
